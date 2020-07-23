@@ -1,5 +1,5 @@
 [
-["index.html", "ACHDS Guidebook Overview", " ACHDS Guidebook DBlana 23/07/2020 Overview This guidebook describes the data and coding standards and processes we follow at the Aberdeen Centre for Health Data Science, that enable us to collaborate and create reproducible research. It is being developed by existing team members, and our aim is to create guidelines and tutorials for onboarding new members. This book is built with Bookdown, based on the psyTeachR book template by Lisa DeBruine. "],
+["index.html", "ACHDS Guidebook Overview", " ACHDS Guidebook Overview This guidebook describes the data and coding standards and processes we follow at the Aberdeen Centre for Health Data Science, that enable us to collaborate and create reproducible research. It is being developed by existing team members, and our aim is to create guidelines and tutorials for onboarding new members. This book is built with Bookdown, based on the psyTeachR book template by Lisa DeBruine. "],
 ["getting-started.html", "Chapter 1 Getting started", " Chapter 1 Getting started "],
 ["naming-files-and-folders.html", "Chapter 2 Naming files and folders", " Chapter 2 Naming files and folders "]
 ]

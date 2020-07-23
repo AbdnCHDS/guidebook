@@ -1,8 +1,8 @@
 
 --- 
 title: "ACHDS Guidebook"
-#author: "D Blana"
-#date: "2020-07-23"
+author: ""
+date: ""
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
