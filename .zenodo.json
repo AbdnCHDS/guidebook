@@ -1,0 +1,28 @@
+{
+    "description": "The 2019-2020 version of MY-BOOK for the Institute of Neuroscience and Psychology at the University of Glasgow.", 
+    "license": "cc-by-sa", 
+    "title": "My Book Name", 
+    "version": "1.0.0",
+    "upload_type": "software", 
+    "publication_date": "2020-01-01", 
+    "creators": [
+        {
+            "name": "Author1 Lastname",
+            "affiliation": "University of Author1",
+            "orcid": "0000-0000-0000-0000"
+        },
+        {
+            "name": "Author2 Lastname",
+            "affiliation": "University of Author2",
+            "orcid": "0000-0000-0000-0000"
+        }
+    ], 
+    "access_right": "open", 
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://PsyTeachR.github.io/my-book/", 
+            "relation": "isSupplementTo"
+        }
+    ]
+}
