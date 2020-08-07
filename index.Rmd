@@ -27,5 +27,5 @@ This guidebook describes the data and coding standards and processes we follow a
 
 It is being developed by existing team members, and our aim is to create guidelines and tutorials for onboarding new members.
 
-This book is built with Bookdown, based on the psyTeachR book template by Lisa DeBruine.
+This book is built with Bookdown, based on the [psyTeachR book template](https://psyteachr.github.io/book-template/) by Lisa DeBruine.
 
