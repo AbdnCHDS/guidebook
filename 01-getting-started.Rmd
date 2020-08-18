@@ -1,8 +1,47 @@
 ---
-title: "Getting started"
+title: "Project organisation"
 author: "DBlana"
 date: "23/07/2020"
 output: html_document
 ---
 
-# Getting started
+# Project organisation {#folders}
+
+There are many ways to organise your project, but the main recommendation is to keep input data, methods and outputs separate. So the main folder structure should reflect this.
+
+**1. Input**
+
+The Input folder contains:
+
++ Input data
++ A metadata file, which is a file that describes the data, for example who created it, when, usage rights, etc. [See chapter on metadata](#metadata).
++ A definitions file, which explains what each variable in the dataset is
+
+```{block, type="warning"}
+It might not be possible to include your actual input data in your project folder.
+```
+
+This could be because: 
+
++ It is too large, and it is stored somewhere else online, so there is no reason to copy it locally. In that case, you need to include a clear explanation of where the data is stored, and what you need to do to access it (for example, you may need to create an account). It would be great to include a small subset of the data, to demonstrate what it looks like, and to allow you to develop and test your analysis code on it without having to access the remote data.
++ It is private and cannot be publicly shared (you have permissions to access it in a secure environment such as the Grampian Data Safe Haven). In that case, create a dummy dataset that contains the same variables as the real dataset, but fake data. The purpose of this is again to demonstrate what the real data looks like, and allow you to develop and test your analysis code.
+
+**2. Methods**
+
+The Methods folder contains:
+
++ Analysis code, including code to input and test the quality of your input data. See [chapter on data quality](#dataquality).
++ Documentation of code. It is possible to combine code and documentation in a single document, using tools such as [R Markdown](https://rmarkdown.rstudio.com/){target="_blank"}. See chapter on documentation.
++ Code tests, to make sure your code does what you want it to do. See chapter on testing.
+
+**3. Outputs**
+
+Outputs may be different for each project, depending on the project aims. They could be:
+
++ A manuscript for publication, including figures, bibliography, etc.
++ A new dataset, which needs to be accompanied by a metadata file and a definitions file, and short examples of code for accessing and using the new dataset
++ A new computer model or analysis method, which should include documentation and examples of use
+
+<div class="info">
+You can create your folder structure on your local computer, but you need a good backup system, and you also need to keep your code under version control (which means keeping track of changes you make). So we recommend you create your project as a Github repository. See chapter on version control.  
+</div>
