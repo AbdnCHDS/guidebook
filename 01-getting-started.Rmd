@@ -9,12 +9,12 @@ output: html_document
 
 There are many ways to organise your project, but the main recommendation is to keep input data, methods and outputs separate. So the main folder structure should reflect this.
 
-**1. Input**
+**1. Inputs**
 
-The Input folder contains:
+The Inputs folder contains:
 
 + Input data
-+ A metadata file, which is a file that describes the data, for example who created it, when, usage rights, etc. [See chapter on metadata](#metadata).
++ A metadata file, which is a file that describes the data, for example who created it, when, usage rights, etc. [See chapter on data documentation](#metadata).
 + A definitions file, which explains what each variable in the dataset is
 
 ```{block, type="warning"}

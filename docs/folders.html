@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>ACHDS Guidebook</title>
+  <title>Chapter 1 Project organisation | ACHDS Guidebook</title>
   <meta name="description" content="This guidebook describes the data and coding standards and processes we follow at the Aberdeen Centre for Health Data Science, that enable us to collaborate and create reproducible research." />
   <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="ACHDS Guidebook" />
+  <meta property="og:title" content="Chapter 1 Project organisation | ACHDS Guidebook" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="ACHDS Guidebook" />
+  <meta name="twitter:title" content="Chapter 1 Project organisation | ACHDS Guidebook" />
   
   <meta name="twitter:description" content="This guidebook describes the data and coding standards and processes we follow at the Aberdeen Centre for Health Data Science, that enable us to collaborate and create reproducible research." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="folders.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="names.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -106,45 +106,44 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">ACHDS Guidebook</h1>
-</div>
-<div id="overview" class="section level1 unnumbered">
-<h1>Overview</h1>
-<p>This guidebook describes the data and coding standards and processes we follow at the Aberdeen Centre for Health Data Science, that enable us to collaborate and create reproducible research.</p>
-<p>It is being developed by existing team members, and our aim is to create guidelines to help new members get started.</p>
-<div id="aim" class="section level2 unnumbered">
-<h2>Aim</h2>
-<p>There are many exciting things to consider when starting a new health data science project. For example: What is the purpose of the project? What data do you need to answer your questions? What is the best type of visualisation that will allow you to convey your message? What is the most suitable statistical analysis?</p>
-<p>The analysis, the visualisation - these are the fun and interesting aspects of the project, that you want to spend all your time doing. So you quickly create a folder called “project”, put your data in a file called “data”, and your analysis code in a file called “analysis”. After a bit of work you save this as “analysis_2”, because you’ve updated it but don’t want to lose the original. When you receive an updated version of the input data, you realise that your analysis code no longer works, so you copy and paste the parts that do work into a new file what you call “new_analysis”…</p>
-<p>By the end of the project you have a folder full of files with variations of similar, generic names that (hopefully) make perfect sense to you at that point in time. But it is completely unhelpful for everyone else, including yourself a few months into the future.</p>
-<p>If you had just spent a bit more time organising your project in the beginning, choosing sensible names, keeping good track of your changes, documenting and testing your code, you would have ended up with a project that was not only useful to you just when you finished it, but for many years later, to you and other researchers.</p>
-<p>But deciding how to organise a project, how to write tests and documentation is not only rather boring, but it’s also not something researchers are taught how to do.That’s why we are all tempted to skip it! So the point of this guidebook is to explain what you need to do and how to do it, to ensure your project can be used and reproduced by others. We hope you will find it useful!</p>
-</div>
-<div id="sections" class="section level2 unnumbered">
-<h2>Sections</h2>
-<p>Our guidebook is work in progress, and everyone is invited to contribute. If you’d like to help improve our guidebook, have a look here: <a href="https://github.com/AbdnCHDS/guidebook" class="uri">https://github.com/AbdnCHDS/guidebook</a></p>
-<p>The sections we have thought about including so far are:</p>
+<div id="folders" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Project organisation</h1>
+<p>There are many ways to organise your project, but the main recommendation is to keep input data, methods and outputs separate. So the main folder structure should reflect this.</p>
+<p><strong>1. Inputs</strong></p>
+<p>The Inputs folder contains:</p>
 <ul>
-<li><a href="folders.html#folders">How to structure your project folders (to keep data, methods and outputs separate)</a><br />
-</li>
-<li><a href="names.html#names">How to name your files (so they are human &amp; machine readable, and can be ordered well)</a></li>
-<li><a href="metadata.html#metadata">How to document your data (which means include information about the dataset creators, description, and license, variable names and description)</a></li>
-<li><a href="dataquality.html#dataquality">Basic data quality control (what to use for missing values in datasets, standard checks on range of values, value types, number of expected observations, etc.)</a></li>
-<li>Good coding practices (documentation, testing, version control)</li>
-<li>Troubleshooting code and asking for help (i.e. how to create minimal working examples)</li>
-<li>Collaboration (using Github for hosting projects, and enabling peer review and tracking team contributions)</li>
-<li>Resources for learning R</li>
+<li>Input data</li>
+<li>A metadata file, which is a file that describes the data, for example who created it, when, usage rights, etc. <a href="metadata.html#metadata">See chapter on data documentation</a>.</li>
+<li>A definitions file, which explains what each variable in the dataset is</li>
+</ul>
+<div class="warning">
+<p>
+It might not be possible to include your actual input data in your project folder.
+</p>
+</div>
+<p>This could be because:</p>
+<ul>
+<li>It is too large, and it is stored somewhere else online, so there is no reason to copy it locally. In that case, you need to include a clear explanation of where the data is stored, and what you need to do to access it (for example, you may need to create an account). It would be great to include a small subset of the data, to demonstrate what it looks like, and to allow you to develop and test your analysis code on it without having to access the remote data.</li>
+<li>It is private and cannot be publicly shared (you have permissions to access it in a secure environment such as the Grampian Data Safe Haven). In that case, create a dummy dataset that contains the same variables as the real dataset, but fake data. The purpose of this is again to demonstrate what the real data looks like, and allow you to develop and test your analysis code.</li>
+</ul>
+<p><strong>2. Methods</strong></p>
+<p>The Methods folder contains:</p>
+<ul>
+<li>Analysis code, including code to input and test the quality of your input data. See <a href="dataquality.html#dataquality">chapter on data quality</a>.</li>
+<li>Documentation of code. It is possible to combine code and documentation in a single document, using tools such as <a href="https://rmarkdown.rstudio.com/" target="_blank">R Markdown</a>. See chapter on documentation.</li>
+<li>Code tests, to make sure your code does what you want it to do. See chapter on testing.</li>
+</ul>
+<p><strong>3. Outputs</strong></p>
+<p>Outputs may be different for each project, depending on the project aims. They could be:</p>
+<ul>
+<li>A manuscript for publication, including figures, bibliography, etc.</li>
+<li>A new dataset, which needs to be accompanied by a metadata file and a definitions file, and short examples of code for accessing and using the new dataset</li>
+<li>A new computer model or analysis method, which should include documentation and examples of use</li>
 </ul>
 <div class="info">
-<p>We are focusing on R, as it is a very commonly used programming language in data science. If you use a different language such as Python, it would be great to add some non-R resources!</p>
+<p>You can create your folder structure on your local computer, but you need a good backup system, and you also need to keep your code under version control (which means keeping track of changes you make). So we recommend you create your project as a Github repository. See chapter on version control.</p>
 </div>
-</div>
-<div id="this-book" class="section level2 unnumbered">
-<h2>This book</h2>
-<p>This book is built with Bookdown, based on the <a href="https://psyteachr.github.io/book-template/">psyTeachR book template</a> by Lisa DeBruine.</p>
 
-</div>
 </div>
 <div class="psyteachr_footer">
   
@@ -256,8 +255,8 @@ window.onload = function() {
           </div>
         </div>
       </div>
-
-<a href="folders.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="names.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
