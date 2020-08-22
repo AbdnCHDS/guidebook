@@ -31,8 +31,8 @@ This could be because:
 The Methods folder contains:
 
 + Analysis code, including code to input and test the quality of your input data. See [chapter on data quality](#dataquality).
-+ Documentation of code. It is possible to combine code and documentation in a single document, using tools such as [R Markdown](https://rmarkdown.rstudio.com/){target="_blank"}. See chapter on documentation.
-+ Code tests, to make sure your code does what you want it to do. See chapter on testing.
++ Documentation of code. It is possible to combine code and documentation in a single document, using tools such as [R Markdown](https://rmarkdown.rstudio.com/){target="_blank"}. See chapter on code documentation.
++ Code tests, to make sure your code does what you want it to do. See chapter on code testing.
 
 **3. Outputs**
 

@@ -17,7 +17,7 @@ description: "This guidebook describes the data and coding standards and process
 
 This guidebook describes the data and coding standards and processes we follow at the Aberdeen Centre for Health Data Science, that enable us to collaborate and create reproducible research. 
 
-It is being developed by existing team members, and our aim is to create guidelines to help new members get started.
+It is being developed by existing team members, to help new members get started.
 
 ## Aim {-}
 
@@ -29,7 +29,7 @@ By the end of the project you have a folder full of files with variations of sim
 
 If you had just spent a bit more time organising your project in the beginning, choosing sensible names, keeping good track of your changes, documenting and testing your code, you would have ended up with a project that was not only useful to you just when you finished it, but for many years later, to you and other researchers.
 
-But deciding how to organise a project, how to write tests and documentation is not only rather boring, but it's also not something researchers are taught how to do.That's why we are all tempted to skip it! So the point of this guidebook is to explain what you need to do and how to do it, to ensure your project can be used and reproduced by others. We hope you will find it useful! 
+But deciding how to organise a project, how to write tests and documentation is not only rather boring, but it's also not something researchers are taught how to do.That's why we are all tempted to skip it! So the point of this guidebook is to explain what you need to do and how to do it, to ensure your project can be used and reproduced by others. We hope you find it useful! 
 
 ## Sections {-}
 
@@ -39,7 +39,7 @@ The sections we have thought about including so far are:
 
 * [How to structure your project folders (to keep data, methods and outputs separate)](#folders)  
 * [How to name your files (so they are human & machine readable, and can be ordered well)](#names) 
-* [How to document your data (which means include information about the dataset creators, description, and license, variable names and description)](#metadata)
+* [How to document your data (what information to include about the dataset creators, description, license, variables, etc.)](#metadata)
 * [Basic data quality control (what to use for missing values in datasets, standard checks on range of values, value types, number of expected observations, etc.)](#dataquality)
 * Good coding practices (documentation, testing, version control)
 * Troubleshooting code and asking for help (i.e. how to create minimal working examples)
