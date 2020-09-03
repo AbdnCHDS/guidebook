@@ -1,11 +1,13 @@
 ---
-title: "[Enter Your Porject or Report title]" 
-author: [Enter Your Name]
-date: YYYY-MM-DD          
+author: "[Enter Your Name]"
+date: YYYY-MM-DD
 output: pdf_document
+title: "[Enter Your Porject or Report title]"
 ---
 
 # Please **DELETE** below for your report (Until line 42)
+
+# http://www.yamllint.com/ ***If there is an error or problem line 1 - 6***
 
 ## Quick help
 
