@@ -6,3 +6,26 @@ output: html_document
 ---
 
 # Data documentation {#metadata}
+
+this is messy, were messy and a pain to go through
+## Problem with the definition of metadata
+
+there are a number of standards, that we can follow 
+
+Dublin Core https://dublincore.org/
+Data Documentation Initiative (DDI) https://ddialliance.org/
+Datacite Schema https://schema.datacite.org/meta/kernel-4.3/
+
+## current Standard
+
+Currently we are following the Dublic 
+
+## Controlled Vocabulary 
+Data Documentation Initiative (DDI)
+
+Using controlled vocabularies 
+
+
+Broadly speaking, a CV can range from a short list of clearly defined, mutually exclusive, and exhaustive terms, which are the only choices for usage in a specific context (e.g., populating certain DDI elements or attributes) through a classification to something as complex as a thesaurus with thousands of terms and term relationships. https://ddialliance.org/taxonomy/term/167
+
+https://ddialliance.org/controlled-vocabularies
