@@ -5,6 +5,16 @@ date: "18/08/2020"
 output: html_document
 ---
 
+
+# What to we need here?
+- Definition on Metadata
+- Action to be decided which to follow HowToFair (DK), SESSADA (EU-soc-science), 
+- Two Documents 
+    1) Metadata for dummies
+    2) Metadata for professional dummies (Dublin Core, DataCite Schema)
+ - Compare dublin core genenrator vs the DDI cookbook
+
+
 # Data documentation {#metadata}
 
 this is messy, were messy and a pain to go through
