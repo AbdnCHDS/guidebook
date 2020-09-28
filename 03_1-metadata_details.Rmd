@@ -1,1 +1,19 @@
+#Metadata Issues for Discussion
 
+##What do we mean by the term?
+
+Metadata is such an all encomopassing term.  'Data about data' could be just about anything.  So within ACHDS we need a short hand way to know what people are referring to when they use the term 'metadata'.  A common approach to this is to divide the term into categories.
+(HowToFair - Denmark)[https://howtofair.dk/how-to-fair/metadata/]
+_We distinguish between three main types of metadata:  
+    *Administrative metadata* are data about a project or resource that are relevant for managing it; for example, project/ resource owner, principal investigator, project collaborators, funder, project period, etc. They are usually assigned to the data, before you collect or create them.  
+    *Descriptive or citation metadata* are data about a dataset or resource that allow people to discover and identify it; for example, authors, title, abstract, keywords, persistent identifier, related publications, etc.  
+    *Structural metadata* are data about how a dataset or resource came about, but also how it is internally structured. Structural metadata describe, for example, the unit of analysis, collection method, sampling procedure, sample size, categories, variables, etc. Structural metadata have to be gathered by the researchers according to best practice in their research community and will be published together with the data. Descriptive and structural metadata should be added continuously throughout the project._
+    
+(Cessda)[https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata]
+_The *project-level* documentation explains the aims of the study, what the research questions/hypotheses are, what methodologies were being used, what instruments and measures were being used, etc. 
+*Data-level or object-level* documentation provides information at the level of individual objects such as pictures or interview transcripts or variables in a database. You can embed data-level information in data files. For example, in interviews, it is best to write down the contextual and descriptive information about each interview at the beginning of each file. And for quantitative data variable and value names can be embedded within the data file itself._
+
+(RDA IG Metadata)[https://www.rd-alliance.org/groups/metadata-ig.html]
+_metadata modalities of description, restriction, navigation, provenance, preservation and the use of metadata for the purposes discovery, contextualisation, validation, analytical processing, simulation, visualisation and interoperation._
+
+## XML vs. RDF for publishing metadata 'readme' file?
