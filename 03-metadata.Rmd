@@ -1,7 +1,7 @@
 ---
 title: "Metadata"
-author: "DBlana"
-date: "18/08/2020"
+author: "BSchliega", "CDBell
+date: "09/2020"
 output: html_document
 ---
 
@@ -74,5 +74,8 @@ To maintain the quality of your dataset you will need to provide information abo
 
 ##References
 The preceding guidelines have been adapted from several sources, including:
-*[Cessda Documentation and metadata](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata)
-*[Cornell University Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme)
+* [Cessda Documentation and metadata](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata)
+* [Cornell University Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme)
+* [How to FAIR: metadata](https://howtofair.dk/how-to-fair/metadata/)
+* (RDA COVID-19 Recommendations and Guidelines on Data Sharing)[https://zenodo.org/record/3932953#.X3HHy-17mM9]
+* (Clinical Data Interchange Standards Consortium)[https://www.cdisc.org/standards]
