@@ -8,7 +8,7 @@ output: html_document
 
 # What to we need here?
 - Definition on Metadata
-- Action to be decided which to follow HowToFair (DK), SESSADA (EU-soc-science), 
+- Action to be decided which to follow HowToFair (DK), CESSDA (EU-soc-science), 
 - Two Documents 
     1) Metadata for dummies
     2) Metadata for professional dummies (Dublin Core, DataCite Schema)
@@ -77,5 +77,6 @@ The preceding guidelines have been adapted from several sources, including:
 * [Cessda Documentation and metadata](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata)
 * [Cornell University Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme)
 * [How to FAIR: metadata](https://howtofair.dk/how-to-fair/metadata/)
-* (RDA COVID-19 Recommendations and Guidelines on Data Sharing)[https://zenodo.org/record/3932953#.X3HHy-17mM9]
-* (Clinical Data Interchange Standards Consortium)[https://www.cdisc.org/standards]
+* [RDA COVID-19 Recommendations and Guidelines on Data Sharing](https://zenodo.org/record/3932953#.X3HHy-17mM9)
+* [Clinical Data Interchange Standards Consortium](https://www.cdisc.org/standards)
+(* UK Data Service:  Catalogue Metadata)[https://www.ukdataservice.ac.uk/manage-data/document/metadata.aspx]
