@@ -64,6 +64,7 @@ For example, for subject keywords, use a controlled vocabularly rather than usin
 
 In the machine readable document to provide information on the language of the data included in your dataset please use the ISO 639-2 schema which is managed by the Library of Congress and can be found here:  https://www.loc.gov/standards/iso639-2/php/langcodes-search.php  Simply put, this provides a list of internationally recognised codes for languages that can easily be understood by a computer.
 
+##Recommendations for minting a DOI
 
 ##References
 The preceding guidelines have been adapted from several sources, including:
