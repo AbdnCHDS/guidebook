@@ -20,7 +20,7 @@ _metadata modalities of description, restriction, navigation, provenance, preser
 (UK Data Service use DDI)
 _"* **study description** - information about the context of the data collection such as bibliographic citation of the study and data, scope of the study (topics, geography, time), methodology of data collection, sampling and processing, data access information, and information on accompanying materials
 * **data file description** - information on data format, file type, file structure, missing data, weighting variables and software
-* **variable descriptions**
+* **variable descriptions**"_
 
 ##  Dublin Core, Data Catalog, DataCite, Schema??
 
@@ -53,3 +53,20 @@ _"* **study description** - information about the context of the data collection
 * [ISO-3166](https://www.iso.org/obp/ui/#search)
 
 and LOINC (Logical Observation Identifiers Names and Codes).
+
+
+#Removed from draft of guidebook
+##Human readable metadata - A Readme file
+Create a simple Readme document to accompany your dataset in the repository.  Use a plain text file wherever possible and avoid using proprietary formats.  This will aid sharing.
+Name the Readme file so that it is easily associated with the data file(s) it describes.
+Keep the layout of the document clear so that it is easy to understand, (e.g avoid lengthy paragraphs). 
+The content section below outlines the type of information to include.
+
+##Metadata for machines
+You will also need to create another information file but this time for machines rather than humans.  There are a range of metadata standards available to enable you to do this.  
+
+Dublin Core is an example.  It is a domain agnostic, basic and widely used metadata standard.
+
+Fortunately there is choice of tools available to help you create the appropriate metadata in a machine readable format.  This will save you having to learn new metadata standards and controlled vocabularies.
+*[Dublin Core Metadata Generator](http://nsteffel.github.io/dublin_core_generator/)
+
