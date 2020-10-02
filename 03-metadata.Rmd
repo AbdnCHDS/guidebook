@@ -33,15 +33,6 @@ Datacite Schema https://schema.datacite.org/meta/kernel-4.3/
 
 Currently we are following the Dublic 
 
-## Controlled Vocabulary 
-Data Documentation Initiative (DDI)
-
-Using controlled vocabularies 
-
-
-
-
-
 # Data documentation {#metadata}
 
 Good research practice includes the provision of information about the data you have collected and the research processes you have undertaken.  This information is essential to ensure your research remains repeatable, transparent, discoverable and citable.  It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines.  If you do not have a background in coding or data management do not fear!
@@ -51,9 +42,14 @@ In this context we are talking about information which provides detail about a p
 ###  Project Level Metadata
 This is the administrative information about a project.
 ###  Object Level Metadata
+The information provided should enable another researcher accessing your dataset to generate fake data to use when developing code before applying it to your dataset.  
+
+Often object level information can be provided at the beginning of the file. For example, in interviews, ithe contextual and descriptive information about each interview can be given at the beginning of each file.
+
+For datasets a wider range of information is required, such as the provision of definitions for variable names, the method used to account for missing data and weighting applied.  The ACHDS passport should help you ensure you have this information readily to hand.
 
 ## ACHDS Project Passport
-To encourage creation of high quality project and object level metadata, ACHDS has created a template for you to use throughout your project from inception to conclusion.  The university's Data Librarian, Claire Bell, is available to help you as you work through this.  Once complete the librarian will take the free text entries and add controlled vocabularies and coding to the document and generate both a human readable 'Readme' file and a machine readable file. These two documents should accompany your data set in the repository of your choice and provide a helpful information to other researchers learning from your project or considering re-using your data.
+To encourage creation of high quality project and object level metadata, ACHDS has created a template for you to use throughout your project from inception to conclusion.  The university's Data Librarian is available to help you as you work through this.  Once complete the librarian will take the free text entries and add controlled vocabularies and coding to the document and generate both a human readable 'Readme' file and a machine readable file. These two documents should accompany your data set in the repository of your choice and provide a helpful information to other researchers learning from your project or considering re-using your data.
 
 Working with the template from the beginning of a project can also help guide you through some of the decisions that need to be made, such as the creation of variable names to be used in data collection.
 
