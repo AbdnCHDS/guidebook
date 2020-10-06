@@ -1,6 +1,6 @@
 ---
 title: "Metadata"
-author: "BSchliega", "CDBell
+author: "BScheliga", "CDBell
 date: "09/2020"
 output: html_document
 ---
