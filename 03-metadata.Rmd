@@ -36,6 +36,10 @@ Currently we are following the Dublin Core
 
 Sponsored by the Dublin Core Metadata Initiative, Dublin Core was published as ISO Standard 15836 in February 2009." [Source] (https://www.dcc.ac.uk/resources/metadata-standards/dublin-core)
 
+***NOTE:*** follow the *dumb-down*- & *one-to-one*- princinple 
+*dumb-down*-princinple: leave out what is not needed 
+*one-to-one*- princinple: Each properties has only one entry, if you need a properties more often repeat it
+
 # Data documentation {#metadata}
 
 Good research practice includes the provision of information about the data you have collected and the research processes you have undertaken.  This information is essential to ensure your research remains repeatable, transparent, discoverable and citable.  It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines.  If you do not have a background in coding or data management do not fear!
