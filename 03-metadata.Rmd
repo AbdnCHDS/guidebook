@@ -29,9 +29,12 @@ Dublin Core https://dublincore.org/
 Data Documentation Initiative (DDI) https://ddialliance.org/
 Datacite Schema https://schema.datacite.org/meta/kernel-4.3/
 
-## current Standard
+## Current Standard
 
-Currently we are following the Dublic 
+Currently we are following the Dublin Core
+"A basic, domain-agnostic standard which can be easily understood and implemented, and as such is one of the best known and most widely used metadata standards.
+
+Sponsored by the Dublin Core Metadata Initiative, Dublin Core was published as ISO Standard 15836 in February 2009." [Source] (https://www.dcc.ac.uk/resources/metadata-standards/dublin-core)
 
 # Data documentation {#metadata}
 
