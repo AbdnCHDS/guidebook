@@ -38,7 +38,7 @@ Sponsored by the Dublin Core Metadata Initiative, Dublin Core was published as I
 
 ***NOTE:*** follow the *dumb-down*- & *one-to-one*- princinple 
 *dumb-down*-princinple: leave out what is not needed 
-*one-to-one*- princinple: Each properties has only one entry, if you need a properties more often repeat it
+*one-to-one*- princinple: Each object/dataset has it own meta data
 
 # Data documentation {#metadata}
 
