@@ -1,6 +1,6 @@
 ---
 title: "Metadata"
-author: "BScheliga", "CDBell
+author: "BScheliga", "CDBell"
 date: "09/2020"
 output: html_document
 ---
@@ -38,16 +38,32 @@ Sponsored by the Dublin Core Metadata Initiative, Dublin Core was published as I
 
 ***NOTE:*** follow the *dumb-down*- & *one-to-one*- princinple 
 *dumb-down*-princinple: leave out what is not needed 
-*one-to-one*- princinple: Each object/dataset has it own meta data
+*one-to-one*- princinple: 
 
-# Data documentation {#metadata}
+***Chapter START HERE, delete above when ready*** 
+# Metadata and data documentation {#metadata}
 
-Good research practice includes the provision of information about the data you have collected and the research processes you have undertaken.  This information is essential to ensure your research remains repeatable, transparent, discoverable and citable.  It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines.  If you do not have a background in coding or data management do not fear!
+***Added some sort of chapter abstract?***
+
+Good research practice includes the provision of information about the data you have collected/generate and the research processes you have undertaken. This information is essential to ensure your research remains repeatable, transparent, discoverable and citable.  It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines.  If you do not have a background in coding or data management do not fear! Help is just an email an email away.
+
+## What is Metadata?
+
+The term metadata is 
+
+One problem is, the term metadata "[...] is used in so many different contexts and applied to so many different things that it sometimes seems to convey very little meaning."
+[Day 2005] (http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/) 
+
+"[...] metadata needs of data creators may be quite different from those of curators or the re-users of data." [Day 2005] (http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/) 
+
+
+
 
 ## What are we referring to when we use the term metadata?
 In this context we are talking about information which provides detail about a project and its aims, coverage and methodology as well as object level information such as the file format of the resulting output of the project.  To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:
 ###  Project Level Metadata
-This is the administrative information about a project.
+This is the administrative information about a project. ***the structured data***
+
 ###  Object Level Metadata
 The information provided should enable another researcher accessing your dataset to generate fake data to use when developing code before applying it to your dataset.  
 
@@ -60,7 +76,7 @@ To encourage creation of high quality project and object level metadata, ACHDS h
 
 Working with the template from the beginning of a project can also help guide you through some of the decisions that need to be made, such as the creation of variable names to be used in data collection.
 
-###What are Controlled Vocabularies?
+### What are Controlled Vocabularies and why should it be used?
 The vocabularly used any metadata document is ususally controlled by further standards.  
 
 "Broadly speaking, Controlled Vocabularies can range from a short list of clearly defined, mutually exclusive, and exhaustive terms, which are the only choices for usage in a specific context (e.g., populating certain DDI elements or attributes) through a classification to something as complex as a thesaurus with thousands of terms and term relationships." https://ddialliance.org/taxonomy/term/167
@@ -75,6 +91,8 @@ In the machine readable document to provide information on the language of the d
 
 ##References
 The preceding guidelines have been adapted from several sources, including:
+
+* Day M, (November 2005), "Metadata", DCC Digital Curation Manual, S.Ross, M.Day (eds),Retrieved <date>, from [http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/](http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/)
 * [Cessda Documentation and metadata](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata)
 * [Cornell University Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme)
 * [How to FAIR: metadata](https://howtofair.dk/how-to-fair/metadata/)
