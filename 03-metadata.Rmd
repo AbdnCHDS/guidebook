@@ -49,7 +49,7 @@ Good research practice includes the provision of information about the data you 
 
 ## What is Metadata?
 
-The term metadata is 
+Metadata is "[...] the information we create, store, and share to describe things, allows us to interact with these things to obtain the knowledge we need." [Riley 2017] (https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf)
 
 One problem is, the term metadata "[...] is used in so many different contexts and applied to so many different things that it sometimes seems to convey very little meaning."
 [Day 2005] (http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/) 
@@ -92,6 +92,7 @@ In the machine readable document to provide information on the language of the d
 ##References
 The preceding guidelines have been adapted from several sources, including:
 
+* Riley J,Understanding Metadata: What is Metadata, and What is it For?, National Information Standards Organization, [https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf](https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf)
 * Day M, (November 2005), "Metadata", DCC Digital Curation Manual, S.Ross, M.Day (eds),Retrieved <date>, from [http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/](http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/)
 * [Cessda Documentation and metadata](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata)
 * [Cornell University Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme)
