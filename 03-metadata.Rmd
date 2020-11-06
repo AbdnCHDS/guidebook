@@ -1,51 +1,14 @@
 ---
 title: "Metadata"
 author: "BScheliga", "CDBell"
-date: "09/2020"
+date: "11/2020"
 output: html_document
----
 
-
-# What to we need here?
-- Definition on Metadata
-- Action to be decided which to follow HowToFair (DK), CESSDA (EU-soc-science), 
-- Two Documents 
-    1) Metadata for dummies
-    2) Metadata for professional dummies (Dublin Core, DataCite Schema)
- - Compare dublin core genenrator vs the DDI cookbook
- - DOI minting last section (Can PURE mint DOI for dataset not stored in PURE)
-
-
-# Data documentation {#metadata}
-
-this is messy, were messy and a pain to go through
-
-##there are a number of standards, that we can follow 
-
-Standards to make our resource findable on the website.
-Standards to make our data more easily shared, such as use of controlled vocabulalies and research coding.
-
-Dublin Core https://dublincore.org/
-Data Documentation Initiative (DDI) https://ddialliance.org/
-Datacite Schema https://schema.datacite.org/meta/kernel-4.3/
-
-## Current Standard
-
-Currently we are following the Dublin Core
-"A basic, domain-agnostic standard which can be easily understood and implemented, and as such is one of the best known and most widely used metadata standards.
-
-Sponsored by the Dublin Core Metadata Initiative, Dublin Core was published as ISO Standard 15836 in February 2009." [Source] (https://www.dcc.ac.uk/resources/metadata-standards/dublin-core)
-
-***NOTE:*** follow the *dumb-down*- & *one-to-one*- princinple 
-*dumb-down*-princinple: leave out what is not needed 
-*one-to-one*- princinple: 
-
-***Chapter START HERE, delete above when ready*** 
 # Metadata and data documentation {#metadata}
 
 ***Added some sort of chapter abstract?***
 
-Good research practice includes the provision of information about the data you have collected/generate and the research processes you have undertaken. This information is essential to ensure your research remains repeatable, transparent, discoverable and citable.  It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines.  If you do not have a background in coding or data management do not fear! Help is just an email an email away.
+Good research practice includes the provision of information about the data you have collected/generate and the research processes you have undertaken. This information is essential to ensure your research remains repeatable, transparent, discoverable and citable.  It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines.  If you do not have a background in coding or data management do not fear! Help is just an email away.
 
 ## What is Metadata?
 
@@ -56,44 +19,52 @@ One problem is, the term metadata "[...] is used in so many different contexts a
 
 "[...] metadata needs of data creators may be quite different from those of curators or the re-users of data." [Day 2005] (http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/) 
 
-
-
-
 ## What are we referring to when we use the term metadata?
-In this context we are talking about information which provides detail about a project and its aims, coverage and methodology as well as object level information such as the file format of the resulting output of the project.  To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:
+In this context we are talking about information which provides detail both about a project and its aims, coverage and methodology, as well as object level information such as the file format of the resulting output of the project.  To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:
+
 ###  Project Level Metadata
-This is the administrative information about a project. ***the structured data***
+This is the administrative information about a project. 
 
 ###  Object Level Metadata
-The information provided should enable another researcher accessing your dataset to generate fake data to use when developing code before applying it to your dataset.  
+This provides information the level of individual objects in your project such as interview transcripts or variables in a dataset. 
 
-Often object level information can be provided at the beginning of the file. For example, in interviews, ithe contextual and descriptive information about each interview can be given at the beginning of each file.
+Often object level information can be provided at the beginning of the file. For example, in interviews, the contextual and descriptive information about each interview can be given at the beginning of each file.
 
-For datasets a wider range of information is required, such as the provision of definitions for variable names, the method used to account for missing data and weighting applied.  The ACHDS passport should help you ensure you have this information readily to hand.
+For datasets a wider range of information is required, such as the provision of definitions for variable names, the method used to account for missing data and weighting applied.  **The information provided  should enable another researcher accessing your dataset to generate fake data to use when developing code before applying it to your dataset.**  
 
-## ACHDS Project Passport
-To encourage creation of high quality project and object level metadata, ACHDS has created a template for you to use throughout your project from inception to conclusion.  The university's Data Librarian is available to help you as you work through this.  Once complete the librarian will take the free text entries and add controlled vocabularies and coding to the document and generate both a human readable 'Readme' file and a machine readable file. These two documents should accompany your data set in the repository of your choice and provide a helpful information to other researchers learning from your project or considering re-using your data.
+## ACHDS Metadata Template
+To encourage creation of high quality project and object level metadata, ACHDS has created a template for you to use throughout your project from inception to conclusion.  Although you might not be able to fill out the entire template at the beginning of the template, it is important that you start this work at the planning stage of your project.  It will help alert you to some of the decisions needing made, such as the creation of variable names to be used in data collection and, importantly, help keep track of these decisions.  In the long run, starting early can save alot of time and administrative burden.
 
-Working with the template from the beginning of a project can also help guide you through some of the decisions that need to be made, such as the creation of variable names to be used in data collection.
+The university's Data Librarian and the team of Data Stewards are available to help you as you work through this.  Once complete the librarian will take the free text entries and add controlled vocabularies and coding to the document and generate both a human readable 'Readme' file and a machine readable file. These two documents should accompany your data set in the repository of your choice and provide a helpful information to other researchers learning from your project or considering re-using your data.
 
-### What are Controlled Vocabularies and why should it be used?
-The vocabularly used any metadata document is ususally controlled by further standards.  
+To obtain a copy of the template form please contact either Claire Bell (claire.bell@abdn.ac.uk) or Bernhard Scheliga (
+
+### Use Controlled Vocabulary
+We recommend that when choosing the names for your data variables you use a Controlled Vocabularly.  This will mean that your dataset can be joined with other datasets using the same vocabulary with greater ease and much less work.  So what is a controlled vocabulary?
 
 "Broadly speaking, Controlled Vocabularies can range from a short list of clearly defined, mutually exclusive, and exhaustive terms, which are the only choices for usage in a specific context (e.g., populating certain DDI elements or attributes) through a classification to something as complex as a thesaurus with thousands of terms and term relationships." https://ddialliance.org/taxonomy/term/167
 
-https://ddialliance.org/controlled-vocabularies
+Once you have chosen a vocabularly to use to name your variables, please ensure that the choice is documented in the Dataset section of the ACHDS template.
 
-For example, for subject keywords, use a controlled vocabularly rather than using free text.  It is recommended that terms provided by the [Library of Congress Authorised Subject Headings](https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&PAGE=First) and [MESH medical subject headings](https://meshb.nlm.nih.gov/search) are used.
+Much of the information you provide at project level also benefits through use of controlled vocabularly.  The Data Librarian is happy to help you by converting the free text you have provided into vocabularly from controlled standards.
+ 
+For example, for subject keywords, can use a controlled vocabularly as well as free text.  It is recommended that terms provided by the [Library of Congress Authorised Subject Headings](https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&PAGE=First) and [MESH medical subject headings](https://meshb.nlm.nih.gov/search) are used.
 
-In the machine readable document to provide information on the language of the data included in your dataset please use the ISO 639-2 schema which is managed by the Library of Congress and can be found here:  https://www.loc.gov/standards/iso639-2/php/langcodes-search.php  Simply put, this provides a list of internationally recognised codes for languages that can easily be understood by a computer.
+The language of a document can also be encoded using a standard.  This aides discoverability on online searches.  ISO 639-2 schema provides a list of internationally recognised codes for languages that can easily be understood by a computer.
 
-##Recommendations for minting a DOI
+##Creating a persistent identifier for your dataset and project.
+The creation of a persistent identifier (PID) for your dataset ensures that others can both cite and access your dataset.  This is important as it helps you to show your contribution to research and increases the finadability and accessibility of your data.  
+
+A commonly used PID is the Digital Object Identifier (DOI). There are different ways to obtain a PID:
+1. Many repositories automatically create a DOI for you when you deposit your dataset making this one less step to think about.
+2. If your chosen repository does not create a DOI or other form of PID for you, you can enter your dataset into the university's repository using Pure. This will create a DOI for you without needing you to deposit your information in the respository.   For help entering a dataset into Pure, please contact the Copyright Librarian Mary Mowat (mary.mowat@abdn.ac.uk).
+
 
 ##References
 The preceding guidelines have been adapted from several sources, including:
 
-* Riley J,Understanding Metadata: What is Metadata, and What is it For?, National Information Standards Organization, [https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf](https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf)
-* Day M, (November 2005), "Metadata", DCC Digital Curation Manual, S.Ross, M.Day (eds),Retrieved <date>, from [http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/](http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/)
+* [Riley J,Understanding Metadata: What is Metadata, and What is it For?, National Information Standards Organization] (https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf)
+* [Day M, (November 2005), "Metadata", DCC Digital Curation Manual, S.Ross, M.Day (eds)],Retrieved <date>(http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/)
 * [Cessda Documentation and metadata](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata)
 * [Cornell University Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme)
 * [How to FAIR: metadata](https://howtofair.dk/how-to-fair/metadata/)
