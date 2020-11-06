@@ -1,1 +1,8 @@
+#Publishing your project
 
+##Choice of repository
+*Might create Readme file for you
+*If not, how to get both a computer readable and a human readable Readmefile
+##Publishing your code
+##Publishing single research objects in project, e.g. datasets, interviews
+##Lab Notebooks?
