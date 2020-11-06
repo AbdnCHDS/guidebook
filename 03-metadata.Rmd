@@ -34,9 +34,9 @@ To obtain a copy of the template form please contact either Claire Bell (claire.
 
 ### Use Controlled Vocabulary
 
-Add examples for controlled Vocabulary
+***Add examples for controlled Vocabulary***
 
-We recommend that when choosing the names for your data variables you use a Controlled Vocabularly.  This will mean that your dataset can be joined with other datasets using the same vocabulary with greater ease and much less work.  So what is a controlled vocabulary?
+If you are analysing secondary data, it is likely the variable names for your data set will already have been created and defined.  However, if you are creating a new dataset, it is recommended that you use a Controlled Vocabularly when choosing the names for your data variables.  This will mean that your dataset can be joined with other datasets using the same vocabulary with greater ease and much less work.  So what is a controlled vocabulary?
 
 "Broadly speaking, Controlled Vocabularies can range from a short list of clearly defined, mutually exclusive, and exhaustive terms, which are the only choices for usage in a specific context (e.g., populating certain DDI elements or attributes) through a classification to something as complex as a thesaurus with thousands of terms and term relationships." https://ddialliance.org/taxonomy/term/167
 
