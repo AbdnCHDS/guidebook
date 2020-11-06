@@ -22,10 +22,10 @@ One problem is, the term metadata "[...] is used in so many different contexts a
 ## What are we referring to when we use the term metadata?
 In this context we are talking about information which provides detail both about a project and its aims, coverage and methodology, as well as object level information such as the file format of the resulting output of the project.  To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:
 
-###  Project Level Metadata
-This is the administrative information about a project. 
+###  Project Level Documentation
+This is the administrative information about a project. The Project Level documentation is algined with Dublin Core 15 core elements things
 
-###  Object Level Metadata
+###  Object Level Documentation
 This provides information the level of individual objects in your project such as interview transcripts or variables in a dataset. 
 
 Often object level information can be provided at the beginning of the file. For example, in interviews, the contextual and descriptive information about each interview can be given at the beginning of each file.
