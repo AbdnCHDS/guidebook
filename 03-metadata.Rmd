@@ -4,7 +4,7 @@ author: "BScheliga", "CDBell"
 date: "11/2020"
 output: html_document
 
-# Metadata and data documentation {#metadata}
+# Documentation and Metadata {#metadata}
 
 ***Added some sort of chapter abstract?***
 
@@ -19,19 +19,11 @@ One problem is, the term metadata "[...] is used in so many different contexts a
 
 "[...] metadata needs of data creators may be quite different from those of curators or the re-users of data." [Day 2005] (http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/) 
 
-## What are we referring to when we use the term metadata?
-In this context we are talking about information which provides detail both about a project and its aims, coverage and methodology, as well as object level information such as the file format of the resulting output of the project.  To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:
+This guide tries to avoid the more generic use of the term metadata as it can lead to confusion.  
 
-###  Project Level Documentation
-This is the administrative information about a project. The Project Level documentation is algined with Dublin Core 15 core elements things    Is Machine readable
+So when term'metadata' is used, it refers simply to the schema used to **encode** the information, for example Dublin Core.
 
-###  Object Level Documentation
-This provides information the level of individual objects in your project such as interview transcripts or variables in a dataset. 
-needs Human readable but can be made machine friendlier by using controlled vocubalury for value column headings
-
-Often object level information can be provided at the beginning of the file. For example, in interviews, the contextual and descriptive information about each interview can be given at the beginning of each file.
-
-For datasets a wider range of information is required, such as the provision of definitions for variable names, the method used to account for missing data and weighting applied.  **The information provided  should enable another researcher accessing your dataset to generate fake data to use when developing code before applying it to your dataset.**  
+The term **documention** will be used to refer to detail both about the project (its aims, coverage and methodology)as well as object level information (such as the file format of the resulting output of the project).  To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:
 
 ## ACHDS Metadata Template
 To encourage creation of high quality project and object level metadata, ACHDS has created a template for you to use throughout your project from inception to conclusion.  Although you might not be able to fill out the entire template at the beginning of the template, it is important that you start this work at the planning stage of your project.  It will help alert you to some of the decisions needing made, such as the creation of variable names to be used in data collection and, importantly, help keep track of these decisions.  In the long run, starting early can save alot of time and administrative burden.
