@@ -4,7 +4,7 @@ author: "BScheliga", "CDBell"
 date: "11/2020"
 output: html_document
 
-# Documentation and Metadata {#metadata}
+# Metadata and data documentation {#metadata}
 
 ***Added some sort of chapter abstract?***
 
@@ -19,17 +19,15 @@ One problem is, the term metadata "[...] is used in so many different contexts a
 
 "[...] metadata needs of data creators may be quite different from those of curators or the re-users of data." [Day 2005] (http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/) 
 
-This guide tries to avoid the more generic use of the term metadata as it can lead to confusion.  
-
-So when term'metadata' is used, it refers simply to the schema used to **encode** the information, for example Dublin Core.
-
-The term **documention** will be used to refer to detail both about the project (its aims, coverage and methodology)as well as object level information (such as the file format of the resulting output of the project).  To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:
+## What are we referring to when we use the term metadata?
+In this context we are talking about information which provides detail both about a project and its aims, coverage and methodology, as well as object level information such as the file format of the resulting output of the project.  To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:
 
 ###  Project Level Documentation
-This is the administrative information about a project. The Project Level documentation is algined with Dublin Core 15 core elements things
+This is the administrative information about a project. The Project Level documentation is algined with Dublin Core 15 core elements things    Is Machine readable
 
 ###  Object Level Documentation
 This provides information the level of individual objects in your project such as interview transcripts or variables in a dataset. 
+needs Human readable but can be made machine friendlier by using controlled vocubalury for value column headings
 
 Often object level information can be provided at the beginning of the file. For example, in interviews, the contextual and descriptive information about each interview can be given at the beginning of each file.
 
@@ -43,6 +41,9 @@ The university's Data Librarian and the team of Data Stewards are available to h
 To obtain a copy of the template form please contact either Claire Bell (claire.bell@abdn.ac.uk) or Bernhard Scheliga (
 
 ### Use Controlled Vocabulary
+
+Add examples for controlled Vocabulary
+
 We recommend that when choosing the names for your data variables you use a Controlled Vocabularly.  This will mean that your dataset can be joined with other datasets using the same vocabulary with greater ease and much less work.  So what is a controlled vocabulary?
 
 "Broadly speaking, Controlled Vocabularies can range from a short list of clearly defined, mutually exclusive, and exhaustive terms, which are the only choices for usage in a specific context (e.g., populating certain DDI elements or attributes) through a classification to something as complex as a thesaurus with thousands of terms and term relationships." https://ddialliance.org/taxonomy/term/167
