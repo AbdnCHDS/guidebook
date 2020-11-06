@@ -19,8 +19,12 @@ One problem is, the term metadata "[...] is used in so many different contexts a
 
 "[...] metadata needs of data creators may be quite different from those of curators or the re-users of data." [Day 2005] (http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/) 
 
-## What are we referring to when we use the term metadata?
-In this context we are talking about information which provides detail both about a project and its aims, coverage and methodology, as well as object level information such as the file format of the resulting output of the project.  To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:
+## So what do we mean by metadata?
+This guide tries to avoid the more generic use of the term metadata as it can lead to confusion.  
+
+So when term'metadata' is used, it refers simply to the schema used to **encode** the information, for example Dublin Core.
+
+The term **documention** will be used to refer to detail both about the project (its aims, coverage and methodology)as well as object level information (such as the file format of the resulting output of the project).  To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:
 
 ###  Project Level Documentation
 This is the administrative information about a project. The Project Level documentation is algined with Dublin Core 15 core elements things
