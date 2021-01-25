@@ -8,7 +8,7 @@ output: html_document
 
 # What to we need here?
 - Definition on Metadata
-- Action to be decided which to follow HowToFair (DK), SESSADA (EU-soc-science), 
+- Action to be decided which to follow HowToFair (DK), CESSDA (EU-soc-science), 
 - Two Documents 
     1) Metadata for dummies
     2) Metadata for professional dummies (Dublin Core, DataCite Schema)
