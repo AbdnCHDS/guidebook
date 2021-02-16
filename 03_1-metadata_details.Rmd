@@ -74,7 +74,7 @@ Sponsored by the Dublin Core Metadata Initiative, Dublin Core was published as I
 and LOINC (Logical Observation Identifiers Names and Codes).
 
 #Data Format:
-https://vocabularies.cessda.eu/vocabulary/DataType?lang=en
+[DDI Alliance Controlled Vocabulary for Data Type @ Cessda](https://vocabularies.cessda.eu/vocabulary/DataType?lang=en)
 **String** Finite sequences of characters. 
 **NormalizedString**Type of string in which any occurrence of whitespace (including tabs, line feeds, and carriage returns) is replaced by a single space.
 **Boolean** True or false. Can be represented by 1 and 0 correspondingly.
