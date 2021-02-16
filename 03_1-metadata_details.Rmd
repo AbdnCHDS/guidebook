@@ -73,6 +73,17 @@ Sponsored by the Dublin Core Metadata Initiative, Dublin Core was published as I
 
 and LOINC (Logical Observation Identifiers Names and Codes).
 
+#Data Format:
+https://vocabularies.cessda.eu/vocabulary/DataType?lang=en
+**String** Finite sequences of characters. 
+**NormalizedString**Type of string in which any occurrence of whitespace (including tabs, line feeds, and carriage returns) is replaced by a single space.
+**Boolean** True or false. Can be represented by 1 and 0 correspondingly.
+**Decimal** A subset of real numbers, which can be represented by a finite-length sequence of decimal digits (0-9) separated by a period as a decimal indicator. An optional leading sign is allowed. If the sign is omitted, "+" is assumed. Leading and trailing zeroes are optional. If the fractional part is zero, the period and following zero(es) can be omitted. For example: -1.23, 12678967.543233, +100000.00, 210.
+**Integer** Whole numbers, the infinite set of integers, no minimum or maximum value. 
+**DateTime** Integer-valued year, month, day, hour and minute, plus decimal-valued second property, and time zone hour and minute (e.g., 2002-10-10T12:00:00-05:00).
+**Time** Left-truncated dateTime, e.g., 13:20:00-05:00 (1:20 pm for Eastern Standard Time U.S.).
+**Date** Integer-valued year, month, day, and time zone hour and minutes, e.g., 2003-06-30-05:00 (30 June 2003 Eastern Standard Time U.S.). 
+
 
 #Removed from draft of guidebook
 
