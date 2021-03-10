@@ -10,7 +10,7 @@ We would like all current members of the team to contribute. Please read through
 
 **1. Participate in Teams discussion**
 
-Most of our discussions take place in an MS Team and our weekly lab meetings (Thursdays at 10 am). We aim to discuss one topic every week, and create guidelines based on our discussion. So please join the meetings or add your thoughts to the Team channel or Wiki.
+Most of our discussions take place in an MS Team and our weekly lab meetings (Thursdays at 14:05). We aim to discuss one topic every week, and create guidelines based on our discussion. So please join the meetings or add your thoughts to the Team channel or Wiki.
 
 **2. Set up Github account**
 
