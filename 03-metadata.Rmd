@@ -1,14 +1,12 @@
 ---
-title: "Metadata"
+title: "Data Documentation"
 author: "BScheliga", "CDBell"
 date: "11/2020"
 output: html_document
 
 # Documentation and Metadata {#metadata}
 
-***Added some sort of chapter abstract?***
-
-Good research practice includes the provision of information about the data you have collected/generate and the research processes you have undertaken. This information is essential to ensure your research remains repeatable, transparent, discoverable and citable.  It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines.  If you do not have a background in coding or data management do not fear! Help is just an email away.
+Good research practice includes the provision of information about the data you have collected/generate and the research processes you have undertaken. This information is essential to ensure your research remains repeatable, transparent, discoverable and citable.  It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines.  If you do not have a background in coding or data management do not fear! Help with this task is just an email away.  Contact either Bernhard Scheliga (b.scheliga@abdn.ac.uk) or claire.bell@abdn.ac.uk).
 
 ## What is Metadata?
 
@@ -16,8 +14,6 @@ Metadata is "[...] the information we create, store, and share to describe thing
 
 One problem is, the term metadata "[...] is used in so many different contexts and applied to so many different things that it sometimes seems to convey very little meaning."
 [Day 2005] (https://www.dcc.ac.uk/sites/default/files/documents/resource/curation-manual/chapters/metadata/metadata.pdf) 
-
-"[...] metadata needs of data creators may be quite different from those of curators or the re-users of data." [Day 2005] (https://www.dcc.ac.uk/sites/default/files/documents/resource/curation-manual/chapters/metadata/metadata.pdf) 
 
 This guide tries to avoid the more generic use of the term metadata as it can lead to confusion.  
 
