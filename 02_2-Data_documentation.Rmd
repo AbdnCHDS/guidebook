@@ -3,6 +3,7 @@ title: "Data Documentation"
 author: "BScheliga", "CDBell"
 date: "11/2020"
 output: html_document
+---
 
 # Documentation and Metadata {#metadata}
 
