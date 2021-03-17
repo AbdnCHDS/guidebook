@@ -1,3 +1,10 @@
+---
+title: "Publishing your project/data"
+author: "CDBell"
+date: "11/2020"
+output: html_document
+---
+
 #Publishing your project
 
 ##Choice of repository
