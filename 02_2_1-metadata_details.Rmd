@@ -1,3 +1,11 @@
+---
+title: "Data Documentation"
+author: "BScheliga", "CDBell"
+date: "11/2020"
+output: html_document
+---
+
+
 ## Citing stuff
 https://guides.lib.umich.edu/c.php?g=439304&p=2993299
 
