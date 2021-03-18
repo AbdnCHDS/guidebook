@@ -1,0 +1,14 @@
+---
+title: "Resources for learning R"
+author: "BScheliga"
+date: "17/03/2021"
+output: html_document
+---
+
+# Books
+[An Introduction to R](https://intro2r.com/index.html)
+
+
+# Videos
+[Understanding ggplot2 part 1](https://www.youtube.com/watch?v=h29g21z0a68&ab_channel=ThomasLinPedersen)
+[Understanding ggplot2 part 2](https://www.youtube.com/watch?v=0m4yywqNPVY&t=0s&ab_channel=ThomasLinPedersen)

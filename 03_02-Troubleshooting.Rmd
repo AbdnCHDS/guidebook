@@ -1,0 +1,9 @@
+---
+title: "Data Documentation"
+author: "BScheliga"
+date: "17/03/2021"
+output: html_document
+---
+
+
+Troubleshooting code and asking for help (i.e. how to create minimal working examples) 
