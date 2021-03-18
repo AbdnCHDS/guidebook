@@ -1,6 +1,5 @@
 ---
 title: "Getting started"
-subtitle: "Naming files and folders"
 author: "DBlana"
 date: "23/07/2020"
 output: html_document
