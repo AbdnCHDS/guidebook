@@ -1,14 +1,17 @@
-
 --- 
 title: "ACHDS Guidebook"
-author: ""
-date: ""
+author: ''
+date: ''
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography:
+- book.bib
+- packages.bib
 biblio-style: apalike
 link-citations: yes
-description: "This guidebook describes the data and coding standards and processes we follow at the Aberdeen Centre for Health Data Science, that enable us to collaborate and create reproducible research."
+description: This guidebook describes the data and coding standards and processes
+  we follow at the Aberdeen Centre for Health Data Science, that enable us to collaborate
+  and create reproducible research.
 ---
 
 
@@ -41,10 +44,12 @@ The sections we have thought about including so far are:
 * [How to name your files (so they are human & machine readable, and can be ordered well)](#names) 
 * [How to document your data (what information to include about the dataset creators, description, license, variables, etc.)](#metadata)
 * [Basic data quality control (what to use for missing values in datasets, standard checks on range of values, value types, number of expected observations, etc.)](#dataquality)
-* Good coding practices (documentation, testing, version control)
-* Troubleshooting code and asking for help (i.e. how to create minimal working examples)
-* Collaboration (using Github for hosting projects, and enabling peer review and tracking team contributions)
-* Resources for learning R
+* [Good coding practices (documentation, testing, version control)](#goodcoding)
+* [Troubleshooting code and asking for help (i.e. how to create minimal working examples)](#troubleshooting)
+* [Good code reviewing practices](#codereview)
+* [Resources for learning R](#learnR)
+* [Collaboration (using Github for hosting projects, and enabling peer review and tracking team contributions)](#collaboration)
+
 
 <div class="info">
 We are focusing on R, as it is a very commonly used programming language in data science. If you use a different language such as Python, it would be great to add some non-R resources!

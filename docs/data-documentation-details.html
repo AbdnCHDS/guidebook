@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Data quality | ACHDS Guidebook</title>
+  <title>A Data Documentation Details | ACHDS Guidebook</title>
   <meta name="description" content="This guidebook describes the data and coding standards and processes we follow at the Aberdeen Centre for Health Data Science, that enable us to collaborate and create reproducible research." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Data quality | ACHDS Guidebook" />
+  <meta property="og:title" content="A Data Documentation Details | ACHDS Guidebook" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Data quality | ACHDS Guidebook" />
+  <meta name="twitter:title" content="A Data Documentation Details | ACHDS Guidebook" />
   
   <meta name="twitter:description" content="This guidebook describes the data and coding standards and processes we follow at the Aberdeen Centre for Health Data Science, that enable us to collaborate and create reproducible research." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="metadata.html"/>
-<link rel="next" href="goodcoding.html"/>
+<link rel="prev" href="publishing-your-project.html"/>
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -144,13 +144,99 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="dataquality" class="section level1">
-<h1><span class="header-section-number">Chapter 4</span> Data quality</h1>
-<ul>
-<li>What to use for missing variables?</li>
-<li>Standard checks on a range of values, value types, number of expected observations etc.</li>
-</ul>
+<div id="data-documentation-details" class="section level1">
+<h1><span class="header-section-number">A</span> Data Documentation Details</h1>
+<div id="citing-stuff" class="section level2">
+<h2><span class="header-section-number">A.1</span> Citing stuff</h2>
+<p><a href="https://guides.lib.umich.edu/c.php?g=439304&amp;p=2993299" class="uri">https://guides.lib.umich.edu/c.php?g=439304&amp;p=2993299</a></p>
+</div>
+<div id="metadata-issues-for-discussion" class="section level2">
+<h2><span class="header-section-number">A.2</span> Metadata Issues for Discussion</h2>
+<div id="what-do-we-mean-by-the-term" class="section level3">
+<h3><span class="header-section-number">A.2.1</span> What do we mean by the term?</h3>
+<p>Metadata is such an all encompassing term. ‘Data about data’ could be just about anything. So within ACHDS we need a short hand way to know what people are referring to when they use the term ‘metadata’. A common approach to this is to divide the term into categories.</p>
+<p>(HowToFair - Denmark)[<a href="https://howtofair.dk/how-to-fair/metadata/" class="uri">https://howtofair.dk/how-to-fair/metadata/</a>]
+<em>We distinguish between three main types of metadata:<br />
+<strong>Administrative metadata</strong> are data about a project or resource that are relevant for managing it; for example, project/ resource owner, principal investigator, project collaborators, funder, project period, etc. They are usually assigned to the data, before you collect or create them.<br />
+<strong>Descriptive or citation metadata</strong> are data about a dataset or resource that allow people to discover and identify it; for example, authors, title, abstract, keywords, persistent identifier, related publications, etc.<br />
+<strong>Structural metadata</strong> are data about how a dataset or resource came about, but also how it is internally structured. Structural metadata describe, for example, the unit of analysis, collection method, sampling procedure, sample size, categories, variables, etc. Structural metadata have to be gathered by the researchers according to best practice in their research community and will be published together with the data. Descriptive and structural metadata should be added continuously throughout the project.</em></p>
+<p>(Cessda)[<a href="https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata" class="uri">https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata</a>]
+<em>The <strong>project-level</strong> documentation explains the aims of the study, what the research questions/hypotheses are, what methodologies were being used, what instruments and measures were being used, etc.
+<strong>Data-level or object-level</strong> documentation provides information at the level of individual objects such as pictures or interview transcripts or variables in a database. You can embed data-level information in data files. For example, in interviews, it is best to write down the contextual and descriptive information about each interview at the beginning of each file. And for quantitative data variable and value names can be embedded within the data file itself.</em></p>
+<p>(RDA IG Metadata)[<a href="https://www.rd-alliance.org/groups/metadata-ig.html" class="uri">https://www.rd-alliance.org/groups/metadata-ig.html</a>]
+<em>metadata modalities of description, restriction, navigation, provenance, preservation and the use of metadata for the purposes discovery, contextualisation, validation, analytical processing, simulation, visualisation and interoperation.</em></p>
+<p>(UK Data Service use DDI)
+<em>“* <strong>study description</strong> - information about the context of the data collection such as bibliographic citation of the study and data, scope of the study (topics, geography, time), methodology of data collection, sampling and processing, data access information, and information on accompanying materials
+* <strong>data file description</strong> - information on data format, file type, file structure, missing data, weighting variables and software
+* <strong>variable descriptions</strong>”</em></p>
+<p>##there are a number of standards, that we can follow: Dublin Core, Data Catalog, DataCite, Schema??</p>
+<p>Standards to make our resource findable on the website.
+Standards to make our data more easily shared, such as use of controlled vocabulalies and research coding.</p>
+<p>Dublin Core <a href="https://dublincore.org/" class="uri">https://dublincore.org/</a>
+Data Documentation Initiative (DDI) <a href="https://ddialliance.org/" class="uri">https://ddialliance.org/</a>
+Datacite Schema <a href="https://schema.datacite.org/meta/kernel-4.3/" class="uri">https://schema.datacite.org/meta/kernel-4.3/</a></p>
+</div>
+</div>
+<div id="current-standard" class="section level2">
+<h2><span class="header-section-number">A.3</span> Current Standard</h2>
+<p>Currently we are following the Dublin Core
+"A basic, domain-agnostic standard which can be easily understood and implemented, and as such is one of the best known and most widely used metadata standards.</p>
+<p>Sponsored by the Dublin Core Metadata Initiative, Dublin Core was published as ISO Standard 15836 in February 2009." [Source] (<a href="https://www.dcc.ac.uk/resources/metadata-standards/dublin-core" class="uri">https://www.dcc.ac.uk/resources/metadata-standards/dublin-core</a>)</p>
+</div>
+<div id="xml-vs.-rdf-for-publishing-metadata-readme-file" class="section level2">
+<h2><span class="header-section-number">A.4</span> XML vs. RDF for publishing metadata ‘readme’ file?</h2>
+<p>##Clinical Data Standards - not really for documentation about the project rather guides for the researchers as they record their questions and results.
+* (CDISC Clinical Data Interchange Standards Consortium)[<a href="https://learnstore.cdisc.org/Home/index" class="uri">https://learnstore.cdisc.org/Home/index</a>] Hard to get an overview of. Training costs money. Not quite sure what sort of thing the standards apply to.
+* (HL7 FHIR Fast Healthcare Interoperability Resources)[<a href="https://www.hl7.org/fhir/overview.html" class="uri">https://www.hl7.org/fhir/overview.html</a>]</p>
+</div>
+<div id="which-controlled-vocabulary" class="section level2">
+<h2><span class="header-section-number">A.5</span> Which controlled vocabulary?</h2>
+<p><em>Administrative terms</em>:<br />
+* <a href="https://vocabularies.cessda.eu/#!discover">CESSDA Vocabulary for describing data elements</a> e.g. analysis unit, data type, mode of collection, etc.
+* <a href="https://ddialliance.org/controlled-vocabularies">https://ddialliance.org/controlled-vocabularies</a> Difference between this and CESSDA?</p>
+<p><em>Subject terms</em>:<br />
+* <a href="https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&amp;PAGE=First">Library of Congress Authorised Subject Headings</a> In use in library already
+* <a href="https://meshb.nlm.nih.gov/search">MESH medical subject headings</a> are used.
+* <a href="https://www.who.int/classifications/icd/en/">International Classification of Diseases (ICD)</a>
+* <a href="http://www.snomed.org/">Systematised Nomenclature of Medicine Clinical Terms (SNOMED CT)</a> Expensive</p>
+<p><em>Identifiers for health measurements and observations</em>:
+* LOINC (Logical Observation Identifiers Names and Codes) “LOINC is a common language (set of identifiers, names, and codes) for identifying health measurements, observations, and documents. If you think of an observation as a”question" and the observation result value as an “answer.” LOINC provides the code for the question.</p>
+<p><em>Languages</em>:<br />
+* Library of Congress ISO 639-2
+* SIL ISO 369-3</p>
+<p><em>Country codes</em>:
+* <a href="https://www.iso.org/obp/ui/#search">ISO-3166</a></p>
+<p>and LOINC (Logical Observation Identifiers Names and Codes).</p>
+<p><em>Data Type</em>:
+<a href="https://vocabularies.cessda.eu/vocabulary/DataType?lang=en">DDI Alliance Controlled Vocabulary for Data Type @ Cessda</a>
+<strong>String</strong> Finite sequences of characters.
+<strong>NormalizedString</strong>Type of string in which any occurrence of whitespace (including tabs, line feeds, and carriage returns) is replaced by a single space.
+<strong>Boolean</strong> True or false. Can be represented by 1 and 0 correspondingly.
+<strong>Decimal</strong> A subset of real numbers, which can be represented by a finite-length sequence of decimal digits (0-9) separated by a period as a decimal indicator. An optional leading sign is allowed. If the sign is omitted, “+” is assumed. Leading and trailing zeroes are optional. If the fractional part is zero, the period and following zero(es) can be omitted. For example: -1.23, 12678967.543233, +100000.00, 210.
+<strong>Integer</strong> Whole numbers, the infinite set of integers, no minimum or maximum value.
+<strong>DateTime</strong> Integer-valued year, month, day, hour and minute, plus decimal-valued second property, and time zone hour and minute (e.g., 2002-10-10T12:00:00-05:00).
+<strong>Time</strong> Left-truncated dateTime, e.g., 13:20:00-05:00 (1:20 pm for Eastern Standard Time U.S.).
+<strong>Date</strong> Integer-valued year, month, day, and time zone hour and minutes, e.g., 2003-06-30-05:00 (30 June 2003 Eastern Standard Time U.S.).</p>
+<p><em>Removed from draft of guidebook</em></p>
+<p><strong><em>NOTE:</em></strong> follow the <em>dumb-down</em>- &amp; <em>one-to-one</em>- princinple
+<em>dumb-down</em>-princinple: leave out what is not needed
+<em>one-to-one</em>- princinple:</p>
+</div>
+<div id="human-readable-metadata---a-readme-file" class="section level2">
+<h2><span class="header-section-number">A.6</span> Human readable metadata - A Readme file</h2>
+<p>Create a simple Readme document to accompany your dataset in the repository. Use a plain text file wherever possible and avoid using proprietary formats. This will aid sharing.
+Name the Readme file so that it is easily associated with the data file(s) it describes.
+Keep the layout of the document clear so that it is easy to understand, (e.g avoid lengthy paragraphs).
+The content section below outlines the type of information to include.</p>
+</div>
+<div id="metadata-for-machines" class="section level2">
+<h2><span class="header-section-number">A.7</span> Metadata for machines</h2>
+<p>You will also need to create another information file but this time for machines rather than humans. There are a range of metadata standards available to enable you to do this.</p>
+<p>Dublin Core is an example. It is a domain agnostic, basic and widely used metadata standard.</p>
+<p>Fortunately there is choice of tools available to help you create the appropriate metadata in a machine readable format. This will save you having to learn new metadata standards and controlled vocabularies.
+*<a href="http://nsteffel.github.io/dublin_core_generator/">Dublin Core Metadata Generator</a></p>
 
+</div>
 </div>
 <div class="psyteachr_footer">
   
@@ -262,8 +348,8 @@ window.onload = function() {
           </div>
         </div>
       </div>
-<a href="metadata.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="goodcoding.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="publishing-your-project.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

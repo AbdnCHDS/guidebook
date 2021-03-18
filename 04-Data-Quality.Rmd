@@ -1,6 +1,6 @@
 ---
 title: "Data Quality"
-author: "DBlana", BScheliga"
+author: "DBlana, BScheliga"
 date: "18/08/2020"
 output: html_document
 ---

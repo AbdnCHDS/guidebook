@@ -1,9 +1,0 @@
-
----
-title: "Metadata"
-author: "DBlana"
-date: "18/08/2020"
-output: html_document
----
-
-# Data documentation {#metadata}

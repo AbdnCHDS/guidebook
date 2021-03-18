@@ -6,7 +6,9 @@ date: "23/07/2020"
 output: html_document
 ---
 
-# Naming files and folders {#names}
+# Getting started
+
+## Naming files and folders {#names}
 
 There are three main principles for good file names. They should be:
 
@@ -27,7 +29,7 @@ There are three main principles for good file names. They should be:
 
 
 
-# Project organisation {#folders}
+## Project organisation {#folders}
 
 There are many ways to organise your project, but the main recommendation is to keep input data, methods and outputs separate. So the main folder structure should reflect this.
 
@@ -39,9 +41,9 @@ The Inputs folder contains:
 + A metadata file, which is a file that describes the data, for example who created it, when, usage rights, etc. [See chapter on data documentation](#metadata).
 + A definitions file, which explains what each variable in the dataset is
 
-```{block, type="warning"}
-It might not be possible to include your actual input data in your project folder.
-```
+<div class="warning">
+<p>It might not be possible to include your actual input data in your project folder.</p>
+</div>
 
 This could be because: 
 
