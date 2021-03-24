@@ -16,6 +16,7 @@ output: html_document
 * [Kieran Healy. Data Visualization: A Practical Introduction. Princeton University Press, 2018.](https://socviz.co/)
 * [Jenny Bryan, the STAT 545 TAs, Jim Hester. Happy Git and GitHub for the useR. Github Bookdown, [n.d.](https://happygitwithr.com/)
 * [Katie Sylor-Miller. Oh Shit, Git!?! Unknown publisher, 2016-2021](https://ohshitgit.com/)
+* [Tidyverse style guide](https://style.tidyverse.org/)
 
 ## Websites
 
