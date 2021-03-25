@@ -47,4 +47,4 @@ Examples of controlled vocabularies (aka ontologies - we won't split hairs about
 * [MESH - U.S. National Library of Medicine Medical Subject Headings](https://meshb.nlm.nih.gov/search)
 * [ICD-11 for Mortality and Morbidity Statistics](https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1435254666)
 * [Library of Congress Authority Headings - Broad range of headings including life sciences](https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&PAGE=First)
-* and for the non-medical amongst us:  [Dictionaries from the British Geological Survey](https://www.bgs.ac.uk/information-hub/dictionaries/)
+* and for the non-medical amongst us:  [Dictionaries from the British Geological Survey](https://www.bgs.ac.uk/information-hub/dictionaries/) 
