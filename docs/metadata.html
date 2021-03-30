@@ -88,8 +88,6 @@
 <li class="chapter" data-level="3.1" data-path="metadata.html"><a href="metadata.html#what-is-metadata"><i class="fa fa-check"></i><b>3.1</b> What is Metadata?</a></li>
 <li class="chapter" data-level="3.2" data-path="metadata.html"><a href="metadata.html#achds-metadata-template"><i class="fa fa-check"></i><b>3.2</b> ACHDS Metadata Template</a></li>
 <li class="chapter" data-level="3.3" data-path="metadata.html"><a href="metadata.html#use-controlled-vocabulary"><i class="fa fa-check"></i><b>3.3</b> Use Controlled Vocabulary</a></li>
-<li class="chapter" data-level="3.4" data-path="metadata.html"><a href="metadata.html#creating-a-persistent-identifier-for-your-dataset-and-project"><i class="fa fa-check"></i><b>3.4</b> Creating a persistent identifier for your dataset and project</a></li>
-<li class="chapter" data-level="3.5" data-path="metadata.html"><a href="metadata.html#references"><i class="fa fa-check"></i><b>3.5</b> References</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="dataquality.html"><a href="dataquality.html"><i class="fa fa-check"></i><b>4</b> Data quality</a></li>
 <li class="chapter" data-level="5" data-path="goodcoding.html"><a href="goodcoding.html"><i class="fa fa-check"></i><b>5</b> Good Coding Practices</a><ul>
@@ -97,13 +95,15 @@
 <li class="chapter" data-level="5.2" data-path="goodcoding.html"><a href="goodcoding.html#troubleshooting"><i class="fa fa-check"></i><b>5.2</b> Troubleshooting code</a></li>
 <li class="chapter" data-level="5.3" data-path="goodcoding.html"><a href="goodcoding.html#codereview"><i class="fa fa-check"></i><b>5.3</b> Good code reviewing practices</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="learnR.html"><a href="learnR.html"><i class="fa fa-check"></i><b>6</b> Resources for learning R</a><ul>
+<li class="chapter" data-level="6" data-path="learnR.html"><a href="learnR.html"><i class="fa fa-check"></i><b>6</b> Resources for learning R and Git</a><ul>
 <li class="chapter" data-level="6.1" data-path="learnR.html"><a href="learnR.html#books"><i class="fa fa-check"></i><b>6.1</b> Books</a></li>
-<li class="chapter" data-level="6.2" data-path="learnR.html"><a href="learnR.html#videos"><i class="fa fa-check"></i><b>6.2</b> Videos</a></li>
+<li class="chapter" data-level="6.2" data-path="learnR.html"><a href="learnR.html#websites"><i class="fa fa-check"></i><b>6.2</b> Websites</a></li>
+<li class="chapter" data-level="6.3" data-path="learnR.html"><a href="learnR.html#videos"><i class="fa fa-check"></i><b>6.3</b> Videos</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="collaboration.html"><a href="collaboration.html"><i class="fa fa-check"></i><b>7</b> Collaboration</a></li>
 <li class="chapter" data-level="8" data-path="publishing-your-project.html"><a href="publishing-your-project.html"><i class="fa fa-check"></i><b>8</b> Publishing your project</a><ul>
 <li class="chapter" data-level="8.1" data-path="publishing-your-project.html"><a href="publishing-your-project.html#choice-of-repository"><i class="fa fa-check"></i><b>8.1</b> Choice of repository</a></li>
+<li class="chapter" data-level="8.2" data-path="publishing-your-project.html"><a href="publishing-your-project.html#creating-a-persistent-identifier-for-your-dataset-and-project"><i class="fa fa-check"></i><b>8.2</b> Creating a persistent identifier for your dataset and project</a></li>
 </ul></li>
 <li class="appendix"><span><b>Appendices</b></span></li>
 <li class="chapter" data-level="A" data-path="data-documentation-details.html"><a href="data-documentation-details.html"><i class="fa fa-check"></i><b>A</b> Data Documentation Details</a><ul>
@@ -116,6 +116,7 @@
 <li class="chapter" data-level="A.5" data-path="data-documentation-details.html"><a href="data-documentation-details.html#which-controlled-vocabulary"><i class="fa fa-check"></i><b>A.5</b> Which controlled vocabulary?</a></li>
 <li class="chapter" data-level="A.6" data-path="data-documentation-details.html"><a href="data-documentation-details.html#human-readable-metadata---a-readme-file"><i class="fa fa-check"></i><b>A.6</b> Human readable metadata - A Readme file</a></li>
 <li class="chapter" data-level="A.7" data-path="data-documentation-details.html"><a href="data-documentation-details.html#metadata-for-machines"><i class="fa fa-check"></i><b>A.7</b> Metadata for machines</a></li>
+<li class="chapter" data-level="A.8" data-path="data-documentation-details.html"><a href="data-documentation-details.html#references"><i class="fa fa-check"></i><b>A.8</b> References</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" 
@@ -146,52 +147,41 @@
             <section class="normal" id="section-">
 <div id="metadata" class="section level1">
 <h1><span class="header-section-number">Chapter 3</span> Documentation and Metadata</h1>
-<p>Good research practice includes the provision of information about the data you have collected/generate and the research processes you have undertaken. This information is essential to ensure your research remains repeatable, transparent, discoverable and citable. It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines. If you do not have a background in coding or data management do not fear! Help with this task is just an email away. Contact either <a href="b.scheliga@abdn.ac.uk">Bernhard Scheliga</a> or <a href="claire.bell@abdn.ac.uk">Claire Bell</a>.</p>
+<p>Good research practice includes the provision of information about the data you have collected/generate and the research processes you have undertaken. This information is essential to ensure your research remains repeatable, transparent, discoverable, citable and can be carried further by yourself or others at a later date. It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines. If you do not have a background in coding or data management do not fear! Help with this task is just an email away. Contact either <a href="b.scheliga@abdn.ac.uk">Bernhard Scheliga</a> or <a href="claire.bell@abdn.ac.uk">Claire Bell</a>.</p>
 <div id="what-is-metadata" class="section level2">
 <h2><span class="header-section-number">3.1</span> What is Metadata?</h2>
-<p>Metadata is “[…] the information we create, store, and share to describe things, allows us to interact with these things to obtain the knowledge we need.” <a href="https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf">Riley 2017</a></p>
-<p>One problem is, the term metadata “[…] is used in so many different contexts and applied to so many different things that it sometimes seems to convey very little meaning.”
+<p>Metadata is &gt; […] the information we create, store, and share to describe things, allows us to interact with these things to obtain the knowledge we need." <a href="https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf">Riley 2017</a></p>
+<blockquote>
+<p>One problem is, the term metadata "[…] is used in so many different contexts and applied to so many different things that it sometimes seems to convey very little meaning.
 <a href="https://www.dcc.ac.uk/sites/default/files/documents/resource/curation-manual/chapters/metadata/metadata.pdf">Day 2005</a></p>
-<p>This guide tries to avoid the more generic use of the term metadata as it can lead to confusion.</p>
-<p>So when the term ‘metadata’ is used, it refers simply to the schema used to <strong>encode</strong> the information, for example Dublin Core.</p>
-<p>The term <strong>documentation</strong> will be used to refer to detail both about the project (its aims, coverage and methodology) as well as object level information (such as the file format of the resulting output of the project). To ease communication within ACDHS the following two terms are used to discuss the overarching information given about a research project:</p>
+</blockquote>
+<p>This guide uses the term metadata to refer to the contextual information given to support the sharing and publication of datasets. The term metadata will also be used in conjuction with the term ‘documentation’ to ensure clarity. Both terms will refer to detail about the project (its aims, coverage and methodology) as well as object level information (such as associated files and variable name definitions).</p>
 </div>
 <div id="achds-metadata-template" class="section level2">
 <h2><span class="header-section-number">3.2</span> ACHDS Metadata Template</h2>
-<p>To encourage creation of high quality project and object level metadata, ACHDS has created a template for you to use throughout your project from inception to conclusion. Although you might not be able to fill out the entire template at the beginning of the template, it is important that you start this work at the planning stage of your project. It will help alert you to some of the decisions needing made, such as the creation of variable names to be used in data collection and, importantly, help keep track of these decisions. In the long run, starting early can save alot of time and administrative burden.</p>
-<p>The university’s Data Librarian and the team of Data Stewards are available to help you as you work through this. Once complete the librarian will take the free text entries and add controlled vocabularies and coding to the document and generate both a human readable ‘Readme’ file and a machine readable file. These two documents should accompany your data set in the repository of your choice and provide a helpful information to other researchers learning from your project or considering re-using your data.</p>
-<p>To obtain a copy of the template form please contact either <a href="claire.bell@abdn.ac.uk">Claire Bell</a> or <a href="b.scheliga@abdn.ac.uk">Bernhard Scheliga</a>.</p>
+<p>To encourage creation of high quality project and object level metadata, ACHDS has created a template for you to use throughout your project from inception to conclusion. Although you might not be able to fill out the entire template right at the start, an early start is important. It will help alert you to some of the decisions needing made, such as the creation of variable names and, importantly, help keep track of these decisions. In the long run, starting early can save alot of time and administrative burden.</p>
+<p>The university’s Data Librarian and the team of Data Stewards are available to help you as you work through this. This documents should accompany your data set in the repository of your choice and will provide helpful information to other researchers.</p>
+<p>For a copy of the template form please click here: <a href="MetadataTemplate_V3_Blank.xlsx">Metadata_Template</a></p>
 </div>
 <div id="use-controlled-vocabulary" class="section level2">
 <h2><span class="header-section-number">3.3</span> Use Controlled Vocabulary</h2>
-<p><strong><em>TO DO: Add examples for controlled Vocabulary</em></strong></p>
-<p>If you are analysing secondary data, it is likely the variable names for your dataset will already have been created and defined. However, if you are creating a new dataset, it is recommended that you use a Controlled Vocabulary when choosing the names for your data variables. This will mean that your dataset can be joined with other datasets using the same vocabulary with greater ease and much less work. So what is a controlled vocabulary?</p>
+<p>If you are analysing secondary data, it is likely the variable names for your dataset will already have been created and defined. If this has come to you without a list of definitions for the terms used, you will appreciate the importance of providing a dictionary along with the dataset to enable it to be understood!</p>
+<p>However, if you are creating a new dataset, you will be choosing your own variable names. It is recommended that you use a controlled vocabulary to do this. This will enable others to quickly understand the definition and scope of your variable and will enable your dataset to be merged with other datasets using the same vocabulary with greater ease. Much of the information you provide at project level also benefits through use of controlled vocabulary. So what is a controlled vocabulary?</p>
+<blockquote>
 <p>“Broadly speaking, Controlled Vocabularies can range from a short list of clearly defined, mutually exclusive, and exhaustive terms, which are the only choices for usage in a specific context (e.g., populating certain DDI elements or attributes) through a classification to something as complex as a thesaurus with thousands of terms and term relationships.” <a href="https://ddialliance.org/taxonomy/term/167" class="uri">https://ddialliance.org/taxonomy/term/167</a></p>
-<p>Once you have chosen a vocabulary to use to name your variables, please ensure that the choice is documented in the Dataset section of the ACHDS template.</p>
-<p>Much of the information you provide at project level also benefits through use of controlled vocabulary. The Data Librarian is happy to help you by converting the free text you have provided into vocabulary from controlled standards.</p>
-<p>For example, for subject keywords, you can use a controlled vocabularl as well as free text. It is recommended that terms provided by the <a href="https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&amp;PAGE=First">Library of Congress Authorised Subject Headings</a> and <a href="https://meshb.nlm.nih.gov/search">MESH medical subject headings</a> are used.</p>
-<p>The language of a document can also be encoded using a standard. This aides discoverability on online searches. ISO 639-2 schema provides a list of internationally recognised codes for languages that can easily be understood by a computer.</p>
-</div>
-<div id="creating-a-persistent-identifier-for-your-dataset-and-project" class="section level2">
-<h2><span class="header-section-number">3.4</span> Creating a persistent identifier for your dataset and project</h2>
-<p>The creation of a persistent identifier (PID) for your dataset ensures that others can both cite and access your dataset. This is important as it helps you to show your contribution to research and increases the findability and accessibility of your data.</p>
-<p>A commonly used PID is the Digital Object Identifier (DOI). There are different ways to obtain a PID:
-1. Many repositories automatically create a DOI for you when you deposit your dataset making this one less step to think about.
-2. If your chosen repository does not create a DOI or other form of PID for you, you can enter your dataset into the university’s repository using Pure. This will create a DOI for you without needing you to deposit your information in the respository. For help entering a dataset into Pure, please contact the Copyright Librarian <a href="mary.mowat@abdn.ac.uk">Mary Mowat</a>.</p>
-</div>
-<div id="references" class="section level2">
-<h2><span class="header-section-number">3.5</span> References</h2>
-<p>The preceding guidelines have been adapted from several sources, including:</p>
-<ul>
-<li><a href="https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf">Riley J,Understanding Metadata: What is Metadata, and What is it For?, National Information Standards Organization</a></li>
-<li><a href="http://www.dcc.ac.uk/resource/curation-manual/chapters/metadata/">Day M, (November 2005), “Metadata”, DCC Digital Curation Manual, S.Ross, M.Day (eds)</a>,Retrieved <date></li>
-<li><a href="https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata">Cessda Documentation and metadata</a></li>
-<li><a href="https://data.research.cornell.edu/content/readme">Cornell University Guide to writing “readme” style metadata</a></li>
-<li><a href="https://howtofair.dk/how-to-fair/metadata/">How to FAIR: metadata</a></li>
-<li><a href="https://zenodo.org/record/3932953#.X3HHy-17mM9">RDA COVID-19 Recommendations and Guidelines on Data Sharing</a></li>
-<li><a href="https://www.cdisc.org/standards">Clinical Data Interchange Standards Consortium</a></li>
-<li><a href="https://www.ukdataservice.ac.uk/manage-data/document/metadata.aspx">UK Data Service: Catalogue Metadata</a></li>
-</ul>
+</blockquote>
+<p>Once you have chosen a vocabulary, please ensure that the choice is documented in the metadata template or whatever form of accompanying documentation you choose. You may need to use more than one controlled vocabulary for different aspects of your project.</p>
+<p>The Data Librarian is happy to help you by converting the free text you have provided into vocabulary from controlled standards.</p>
+<p>For example, for subject keywords, you can use a controlled vocabulary as well as free text. It is recommended that terms provided by the <a href="https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&amp;PAGE=First">Library of Congress Authorised Subject Headings</a> and <a href="https://meshb.nlm.nih.gov/search">MESH medical subject headings</a> are used.</p>
+<p>Examples of controlled vocabularies (aka ontologies - we won’t split hairs about the differences here):
+* <a href="https://www.ebi.ac.uk/ols/index">Biomedical ontologies from the European Bioinformatics Institute</a>
+* <a href="https://bioportal.bioontology.org/search?q=ICD&amp;ontologies=&amp;include_properties=false&amp;include_views=false&amp;includeObsolete=false&amp;require_definition=false&amp;exact_match=false&amp;categories=">Bioportal</a>
+* <a href="https://www.abdn.ac.uk/hsru/what-we-do/qa/glossary-141.php">University of Aberdeen, Health Services Research Unit - Glossary</a>
+* <a href="https://www.mayocliniclabs.com/test-catalog/appendix/loinc-codes.html">LOINC - Logical Observation Identifiers Names and Codes</a>
+* <a href="https://meshb.nlm.nih.gov/search">MESH - U.S. National Library of Medicine Medical Subject Headings</a>
+* <a href="https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1435254666">ICD-11 for Mortality and Morbidity Statistics</a>
+* <a href="https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&amp;PAGE=First">Library of Congress Authority Headings - Broad range of headings including life sciences</a>
+* and for the non-medical amongst us: <a href="https://www.bgs.ac.uk/information-hub/dictionaries/">Dictionaries from the British Geological Survey</a></p>
 
 </div>
 </div>

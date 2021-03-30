@@ -5,7 +5,7 @@ date: "17/03/2021"
 output: html_document
 ---
 
-# Resources for learning R {#learnR} and Git
+# Resources for learning R and Git {#learnR} 
 
 ## Books
 

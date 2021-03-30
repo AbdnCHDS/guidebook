@@ -9,8 +9,6 @@ metadata
 what-is-metadata
 achds-metadata-template
 use-controlled-vocabulary
-creating-a-persistent-identifier-for-your-dataset-and-project
-references
 dataquality
 goodcoding
 documentation-testing-version-control
@@ -18,10 +16,12 @@ troubleshooting
 codereview
 learnR
 books
+websites
 videos
 collaboration
 publishing-your-project
 choice-of-repository
+creating-a-persistent-identifier-for-your-dataset-and-project
 data-documentation-details
 citing-stuff
 metadata-issues-for-discussion
@@ -31,3 +31,4 @@ xml-vs.-rdf-for-publishing-metadata-readme-file
 which-controlled-vocabulary
 human-readable-metadata---a-readme-file
 metadata-for-machines
+references
