@@ -8,31 +8,26 @@ output: html_document
 # Publishing your project
 
 ## Choice of repository
+
+(2021-03-29) Add Re3data to publishing section of guidebook 
 *Might create Readme file for you
 *If not, how to get both a computer readable and a human readable Readmefile
-##Publishing your code
+##Publishing your code alongside your data
 ##Publishing single research objects in project, e.g. datasets, interviews
 ##Lab Notebooks?
 
 
-Choice of repository 
 
-Github can be used as a repository for your dataset 
-
-Might create Readme file for you 
-
-If not, how to get both a computer readable and a human readable Readmefile 
-
-Publishing your code alongside your data 
 
 Publishing single research objects in project, e.g. datasets, interviews 
 
-Lab Notebooks? 
 
-Licences 
-
+##Licences 
 [Adding License manually to Github repopsitory](https://github.com/santisoler/cc-licenses) 
 
+##Orcid ID
+(2021-03-29)  Add note about using orcid ID when publishing data in case you move institution so you remain contactable.  Also much research is cross-disciplinary so you might need to use multiple repositories 
+ 
 
 ## Creating a persistent identifier for your dataset and project
 The creation of a persistent identifier (PID) for your dataset ensures that others can both cite and access your dataset. This is important as it helps you to show your contribution to research and increases the findability and accessibility of your data.  
