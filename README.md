@@ -6,6 +6,8 @@ Our goal is to develop data and coding standards that we encourage ACHDS team me
 
 We would like all current members of the team to contribute. Please read through the contributing guidelines below, and get in touch with [Dimitra](https://github.com/dblana) if you have any questions :smiley:
 
+This project adheres to a [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behaviour to [Dimitra](https://github.com/dblana).
+
 ## Contributor Guidelines
 
 **1. Participate in Teams discussion**
@@ -59,6 +61,3 @@ When you are ready to get feedback from other team members, [change the draft pu
 When you get approval from the reviewer, merge the pull request and delete the branch (this closes the issue).
 **Success!!** :balloon::balloon::balloon: Well done! And thank you :smiley:
 
-## Participation Guidelines
-
-This project adheres to a [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behaviour to [Dimitra](https://github.com/dblana).
