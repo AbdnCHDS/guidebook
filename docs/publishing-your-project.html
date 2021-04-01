@@ -88,8 +88,6 @@
 <li class="chapter" data-level="3.1" data-path="metadata.html"><a href="metadata.html#what-is-metadata"><i class="fa fa-check"></i><b>3.1</b> What is Metadata?</a></li>
 <li class="chapter" data-level="3.2" data-path="metadata.html"><a href="metadata.html#achds-metadata-template"><i class="fa fa-check"></i><b>3.2</b> ACHDS Metadata Template</a></li>
 <li class="chapter" data-level="3.3" data-path="metadata.html"><a href="metadata.html#use-controlled-vocabulary"><i class="fa fa-check"></i><b>3.3</b> Use Controlled Vocabulary</a></li>
-<li class="chapter" data-level="3.4" data-path="metadata.html"><a href="metadata.html#creating-a-persistent-identifier-for-your-dataset-and-project"><i class="fa fa-check"></i><b>3.4</b> Creating a persistent identifier for your dataset and project</a></li>
-<li class="chapter" data-level="3.5" data-path="metadata.html"><a href="metadata.html#references"><i class="fa fa-check"></i><b>3.5</b> References</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="dataquality.html"><a href="dataquality.html"><i class="fa fa-check"></i><b>4</b> Data quality</a></li>
 <li class="chapter" data-level="5" data-path="goodcoding.html"><a href="goodcoding.html"><i class="fa fa-check"></i><b>5</b> Good Coding Practices</a><ul>
@@ -97,13 +95,15 @@
 <li class="chapter" data-level="5.2" data-path="goodcoding.html"><a href="goodcoding.html#troubleshooting"><i class="fa fa-check"></i><b>5.2</b> Troubleshooting code</a></li>
 <li class="chapter" data-level="5.3" data-path="goodcoding.html"><a href="goodcoding.html#codereview"><i class="fa fa-check"></i><b>5.3</b> Good code reviewing practices</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="learnR.html"><a href="learnR.html"><i class="fa fa-check"></i><b>6</b> Resources for learning R</a><ul>
+<li class="chapter" data-level="6" data-path="learnR.html"><a href="learnR.html"><i class="fa fa-check"></i><b>6</b> Resources for learning R and Git</a><ul>
 <li class="chapter" data-level="6.1" data-path="learnR.html"><a href="learnR.html#books"><i class="fa fa-check"></i><b>6.1</b> Books</a></li>
-<li class="chapter" data-level="6.2" data-path="learnR.html"><a href="learnR.html#videos"><i class="fa fa-check"></i><b>6.2</b> Videos</a></li>
+<li class="chapter" data-level="6.2" data-path="learnR.html"><a href="learnR.html#websites"><i class="fa fa-check"></i><b>6.2</b> Websites</a></li>
+<li class="chapter" data-level="6.3" data-path="learnR.html"><a href="learnR.html#videos"><i class="fa fa-check"></i><b>6.3</b> Videos</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="collaboration.html"><a href="collaboration.html"><i class="fa fa-check"></i><b>7</b> Collaboration</a></li>
 <li class="chapter" data-level="8" data-path="publishing-your-project.html"><a href="publishing-your-project.html"><i class="fa fa-check"></i><b>8</b> Publishing your project</a><ul>
 <li class="chapter" data-level="8.1" data-path="publishing-your-project.html"><a href="publishing-your-project.html#choice-of-repository"><i class="fa fa-check"></i><b>8.1</b> Choice of repository</a></li>
+<li class="chapter" data-level="8.2" data-path="publishing-your-project.html"><a href="publishing-your-project.html#creating-a-persistent-identifier-for-your-dataset-and-project"><i class="fa fa-check"></i><b>8.2</b> Creating a persistent identifier for your dataset and project</a></li>
 </ul></li>
 <li class="appendix"><span><b>Appendices</b></span></li>
 <li class="chapter" data-level="A" data-path="data-documentation-details.html"><a href="data-documentation-details.html"><i class="fa fa-check"></i><b>A</b> Data Documentation Details</a><ul>
@@ -116,6 +116,7 @@
 <li class="chapter" data-level="A.5" data-path="data-documentation-details.html"><a href="data-documentation-details.html#which-controlled-vocabulary"><i class="fa fa-check"></i><b>A.5</b> Which controlled vocabulary?</a></li>
 <li class="chapter" data-level="A.6" data-path="data-documentation-details.html"><a href="data-documentation-details.html#human-readable-metadata---a-readme-file"><i class="fa fa-check"></i><b>A.6</b> Human readable metadata - A Readme file</a></li>
 <li class="chapter" data-level="A.7" data-path="data-documentation-details.html"><a href="data-documentation-details.html#metadata-for-machines"><i class="fa fa-check"></i><b>A.7</b> Metadata for machines</a></li>
+<li class="chapter" data-level="A.8" data-path="data-documentation-details.html"><a href="data-documentation-details.html#references"><i class="fa fa-check"></i><b>A.8</b> References</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" 
@@ -162,6 +163,13 @@
 <p>Lab Notebooks?</p>
 <p>Licences</p>
 <p><a href="https://github.com/santisoler/cc-licenses">Adding License manually to Github repopsitory</a></p>
+</div>
+<div id="creating-a-persistent-identifier-for-your-dataset-and-project" class="section level2">
+<h2><span class="header-section-number">8.2</span> Creating a persistent identifier for your dataset and project</h2>
+<p>The creation of a persistent identifier (PID) for your dataset ensures that others can both cite and access your dataset. This is important as it helps you to show your contribution to research and increases the findability and accessibility of your data.</p>
+<p>A commonly used PID is the Digital Object Identifier (DOI). There are different ways to obtain a PID:
+1. Many repositories automatically create a DOI for you when you deposit your dataset making this one less step to think about.
+2. If your chosen repository does not create a DOI or other form of PID for you, you can enter your dataset into the university’s repository using Pure. This will create a DOI for you without needing you to deposit your information in the respository. For help entering a dataset into Pure, please contact the Copyright Librarian <a href="mary.mowat@abdn.ac.uk">Mary Mowat</a>.</p>
 
 </div>
 </div>

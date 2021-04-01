@@ -32,3 +32,11 @@ Lab Notebooks?
 Licences 
 
 [Adding License manually to Github repopsitory](https://github.com/santisoler/cc-licenses) 
+
+
+## Creating a persistent identifier for your dataset and project
+The creation of a persistent identifier (PID) for your dataset ensures that others can both cite and access your dataset. This is important as it helps you to show your contribution to research and increases the findability and accessibility of your data.  
+
+A commonly used PID is the Digital Object Identifier (DOI). There are different ways to obtain a PID:
+1. Many repositories automatically create a DOI for you when you deposit your dataset making this one less step to think about.
+2. If your chosen repository does not create a DOI or other form of PID for you, you can enter your dataset into the university's repository using Pure. This will create a DOI for you without needing you to deposit your information in the respository.   For help entering a dataset into Pure, please contact the Copyright Librarian [Mary Mowat](mary.mowat@abdn.ac.uk).
