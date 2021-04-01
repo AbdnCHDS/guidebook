@@ -11,7 +11,8 @@ Good research practice includes the provision of information about the data you 
 
 ## What is Metadata?
 
-Metadata is > [...] the information we create, store, and share to describe things, allows us to interact with these things to obtain the knowledge we need." [Riley 2017](https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf)
+Metadata is: 
+> [...] the information we create, store, and share to describe things, allows us to interact with these things to obtain the knowledge we need." [Riley 2017](https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf)
 
 > One problem is, the term metadata "[...] is used in so many different contexts and applied to so many different things that it sometimes seems to convey very little meaning.
 [Day 2005](https://www.dcc.ac.uk/sites/default/files/documents/resource/curation-manual/chapters/metadata/metadata.pdf) 
@@ -40,6 +41,7 @@ The Data Librarian is happy to help you by converting the free text you have pro
 For example, for subject keywords, you can use a controlled vocabulary as well as free text.  It is recommended that terms provided by the [Library of Congress Authorised Subject Headings](https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&PAGE=First) and [MESH medical subject headings](https://meshb.nlm.nih.gov/search) are used.
 
 Examples of controlled vocabularies (aka ontologies - we won't split hairs about the differences here):
+
 * [Biomedical ontologies from the European Bioinformatics Institute](https://www.ebi.ac.uk/ols/index)
 * [Bioportal](https://bioportal.bioontology.org/search?q=ICD&ontologies=&include_properties=false&include_views=false&includeObsolete=false&require_definition=false&exact_match=false&categories=)
 * [University of Aberdeen, Health Services Research Unit - Glossary](https://www.abdn.ac.uk/hsru/what-we-do/qa/glossary-141.php)
@@ -48,3 +50,4 @@ Examples of controlled vocabularies (aka ontologies - we won't split hairs about
 * [ICD-11 for Mortality and Morbidity Statistics](https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1435254666)
 * [Library of Congress Authority Headings - Broad range of headings including life sciences](https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&PAGE=First)
 * and for the non-medical amongst us:  [Dictionaries from the British Geological Survey](https://www.bgs.ac.uk/information-hub/dictionaries/) 
+
