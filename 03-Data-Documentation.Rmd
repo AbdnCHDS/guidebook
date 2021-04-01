@@ -29,16 +29,19 @@ For a copy of the template form please click here:  [Metadata_Template](Metadata
 
 If you are analysing secondary data, it is likely the variable names for your dataset will already have been created and defined.  If this has come to you without a list of definitions for the terms used, you will appreciate the importance of providing a dictionary along with the dataset to enable it to be understood!
 
-However, if you are creating a new dataset, you will be choosing your own variable names.  It is recommended that you use a controlled vocabulary to do this.  This will enable others to quickly understand the definition and scope of your variable and will enable your dataset to be merged with other datasets using the same vocabulary with greater ease. Much of the information you provide at project level also benefits through use of controlled vocabulary.  So what is a controlled vocabulary?
+However, if you are creating a new dataset, you will be choosing your own variable names.  It is recommended that you use a controlled vocabulary to do this. Much of the information you provide at project level also benefits through use of controlled vocabulary.  Some benefits of using a controlled vocabularly are: 
+*It will enable others to quickly understand the definition and scope of the terms you use.
+*It will enable your dataset to be merged with other datasets using the same vocabulary with greater ease. 
+*Your work becomes more findable by search engines.  (Someone else has done the magic behind the scenes that enable computers to read and understand your terms and match it with search terms or other datasets.  You just need to use the words).
+
+So what is a controlled vocabulary?
 
 >"Broadly speaking, Controlled Vocabularies can range from a short list of clearly defined, mutually exclusive, and exhaustive terms, which are the only choices for usage in a specific context (e.g., populating certain DDI elements or attributes) through a classification to something as complex as a thesaurus with thousands of terms and term relationships." https://ddialliance.org/taxonomy/term/167
 
-Once you have chosen a vocabulary, please ensure that the choice is documented in the metadata template or whatever form of accompanying documentation you choose.  You may need to use more than one controlled vocabulary for different aspects of your project.
+Once you have chosen a vocabulary, please ensure that the choice is documented in the metadata template or whatever form of accompanying documentation you choose.  You may need to use more than one controlled vocabulary for different aspects of your project.  It is  a good idea to use vocabularies supported by a strong community so that you can rest assured that both the terms themselves and the technical work behind the scenes is kept up to date.
 
 The Data Librarian is happy to help you by converting the free text you have provided into vocabulary from controlled standards.
  
-For example, for subject keywords, you can use a controlled vocabulary as well as free text.  It is recommended that terms provided by the [Library of Congress Authorised Subject Headings](https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&PAGE=First) and [MESH medical subject headings](https://meshb.nlm.nih.gov/search) are used.
-
 Examples of controlled vocabularies (aka ontologies - we won't split hairs about the differences here):
 * [Biomedical ontologies from the European Bioinformatics Institute](https://www.ebi.ac.uk/ols/index)
 * [Bioportal](https://bioportal.bioontology.org/search?q=ICD&ontologies=&include_properties=false&include_views=false&includeObsolete=false&require_definition=false&exact_match=false&categories=)
