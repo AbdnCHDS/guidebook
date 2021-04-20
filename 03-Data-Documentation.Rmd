@@ -23,7 +23,7 @@ To encourage creation of high quality project and object level metadata, ACHDS h
 
 The university's Data Librarian and the team of Data Stewards are available to help you as you work through this.  This documents should accompany your data set in the repository of your choice and will provide helpful information to other researchers.
 
-For a copy of the template form please click here:  [Metadata_Template](MetadataTemplate_V3_Blank.xlsx)
+For a copy of the template form please click here:  [Metadata_Template](https://github.com/AbdnCHDS/DataDocumentationTemplate)
 
 ## Use Controlled Vocabulary
 
