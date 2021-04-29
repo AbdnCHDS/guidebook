@@ -7,16 +7,31 @@ output: html_document
 
 # Publishing your project
 
-## Choice of repository
 
-(2021-03-29) Add Re3data to publishing section of guidebook 
-*Might create Readme file for you
-*If not, how to get both a computer readable and a human readable Readmefile
 ##Publishing your code alongside your data
 ##Publishing single research objects in project, e.g. datasets, interviews
 ##Lab Notebooks?
 
+##Choosing where to publish your data
+There are various things to consider when choosing where to archive and or publish your data:
+* How long do you need to keep your data?  The length of time may be mandated by the funder.
+* Would it be best to store it in a disipline or domain centred archive?
+* Do you need to consider issues related to senstive data or GDPR?
+* What size is your data?
+* Do you have a preservation budget?
 
+A good repository should:
+* Provide a persistent identifier (PID) for your dataset. This helps to make it easily findable by others.
+* Enable you to easily provide contextual information about your dataset to enable it to be re-useable.
+* Takes the information you provide an publishes it in both human readable and machine readable formats, so that the information is both findable and accessible.
+* Encourages re-use of your data though the implementation of Knowledge Organisation Systems, such as recognised standard vocabularies.
+* Provides long term access to your data.  (A repository which has gained the Core Trust Seal guarentees access to the data should the repository go bankrupt.)
+
+Sound like an awful lot to bear in mind?  Re3data have created a tool to help you choose the most appropriate repository for your work. https://www.re3data.org
+
+
+##But my data needs to remain private...
+You can still tell the world about your research and keep your data private.  Using a repository like Dataverse means that you can publish your metadata, that is the contextual information about your dataset, to enable the information about your project to be easily found, and then keep the data privately and securely elsewhere.
 
 
 Publishing single research objects in project, e.g. datasets, interviews 
