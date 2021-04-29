@@ -6,14 +6,20 @@ output: html_document
 ---
 
 # Publishing your project
+Publishling your data can increase the potential of the dataset you have worked hard to collect. 
 
+## Archiving vs. Publishing
 
-##Publishing your code alongside your data
-##Publishing single research objects in project, e.g. datasets, interviews
-##Lab Notebooks?
+## Choosing what to publish
+Publishing your data set on its own is not recommended practice. It can easily get lost or become hard to access or impossible to repeat.  To help mitigate against these problems it is a wise idea to publish your dataset as a package that includes:
+1. The dataset(s)
+2. Contextual information about the dataset, often referred to as metadata.  Please see [chapter 3](https://abdnchds.github.io/guidebook/metadata.html) for guidance.
+3. Any accompanying code so that others can easily see what you did to the raw data.
+4. Your lab notebooks.
 
-##Choosing where to publish your data
+## Choosing where to publish your data
 There are various things to consider when choosing where to archive and or publish your data:
+* How easy will it be to publish your accompanying information package along with your dataset?
 * How long do you need to keep your data?  The length of time may be mandated by the funder.
 * Would it be best to store it in a disipline or domain centred archive?
 * Do you need to consider issues related to senstive data or GDPR?
@@ -22,34 +28,32 @@ There are various things to consider when choosing where to archive and or publi
 
 A good repository should:
 * Provide a persistent identifier (PID) for your dataset. This helps to make it easily findable by others.
-* Enable you to easily provide contextual information about your dataset to enable it to be re-useable.
+* Enable you to easily provide adequate contextual information about your dataset to enable it to be re-useable.
 * Takes the information you provide an publishes it in both human readable and machine readable formats, so that the information is both findable and accessible.
 * Encourages re-use of your data though the implementation of Knowledge Organisation Systems, such as recognised standard vocabularies.
 * Provides long term access to your data.  (A repository which has gained the Core Trust Seal guarentees access to the data should the repository go bankrupt.)
 
 Sound like an awful lot to bear in mind?  Re3data have created a tool to help you choose the most appropriate repository for your work. https://www.re3data.org
 
-
-##But my data needs to remain private...
-You can still tell the world about your research and keep your data private.  Using a repository like Dataverse means that you can publish your metadata, that is the contextual information about your dataset, to enable the information about your project to be easily found, and then keep the data privately and securely elsewhere.
-
-
-Publishing single research objects in project, e.g. datasets, interviews 
-
-
-##Licences 
-[Adding License manually to Github repopsitory](https://github.com/santisoler/cc-licenses) 
-
-##Orcid ID
-(2021-03-29)  Add note about using orcid ID when publishing data in case you move institution so you remain contactable.  Also much research is cross-disciplinary so you might need to use multiple repositories 
- 
+## But my data needs to remain private...
+You can still tell the world about your research and keep your data private.  Using a repository like Dataverse means that you can publish your metadata, that is the contextual information about your dataset, to enable the information about your project to be easily found, and then store the data privately and securely elsewhere.
 
 ## Creating a persistent identifier for your dataset and project
-The creation of a persistent identifier (PID) for your dataset ensures that others can both cite and access your dataset. This is important as it helps you to show your contribution to research and increases the findability and accessibility of your data.  
+Ideally you should choose a repository which automatically creates a DOI for you on deposit of your dataset, if the dataset is to be kept privately, your the contextual informtion for your dataset.  The creation of a persistent identifier (PID) for your dataset ensures that others can both cite and access your dataset. This is important as it helps you to show your contribution to research and increases the findability and accessibility of your data.  
 
-A commonly used PID is the Digital Object Identifier (DOI). There are different ways to obtain a PID:
-1. Many repositories automatically create a DOI for you when you deposit your dataset making this one less step to think about.
-2. If your chosen repository does not create a DOI or other form of PID for you, you can enter your dataset into the university's repository using Pure. This will create a DOI for you without needing you to deposit your information in the respository.   For help entering a dataset into Pure, please contact the Copyright Librarian [Mary Mowat](mary.mowat@abdn.ac.uk).
+If your chosen repository does not create a DOI or other form of PID for you, you can enter your dataset into the university's repository using Pure. This will create a DOI for you without needing you to deposit your information in the respository.   For help entering information about a dataset into Pure, please contact the Copyright Librarian [Mary Mowat](mary.mowat@abdn.ac.uk).
 
-##Show how you wish your data set to be cited
-(2021-03-17) Use DataCite to show how to create a citation for data in the Guidebook 
+## Orcid ID
+Remember when publishing your data set to include your Orcid ID in the accompanying information.  An Orcid ID is a persistent identifier that distinguishes you from anyone else with the same or a similar name.  You can connect your ID with your professional information, for example, affiliations, grants and publications. Using an Orcid ID also ensures that you remain contactable should you move institution, and joins your work across respositories, especially important if your research is cross-disciplinary.  For more information go to [https://orcid.org](https://orcid.org)
+
+## Licences 
+You are putting all your hard work out into a public space.  Make sure it is protected by a licence clearly letting others know what they can and cannot do with your work.  These sites should help you to choose the right licence for a variety of different materials:
+* [Choose a Licence](https://choosealicense.com/)
+* [Licence Selector](https://ufal.github.io/public-license-selector/)
+* [Data World](https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets)
+
+## Show how you wish your data set to be cited
+To ensure that your work is properly cited, and credit is given where credit is due, please provide an example of how you wish your work to be cited using a standard format such as Harvard.
+
+## Publishing single research objects in project, e.g. datasets, interviews 
+## Access categories
