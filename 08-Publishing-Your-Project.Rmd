@@ -6,40 +6,73 @@ output: html_document
 ---
 
 # Publishing your project
-Publishling your data can increase the potential of the dataset you have worked hard to collect. 
+The publication of your data is often mandated by funders.  Done well, publication can increase the potential of the dataset you have worked hard to collect. It is also central to the FAIR princples.  This section will look at ways of making an informed decision about where best to publish your data, and how to do this, so that others can access, understand, use and cite it.  
 
-## Archiving vs. Publishing
+Data publishing and/or archiving is not something you leave until the end of the project.  You need to **plan for archiving and publication right from the start**. This chapter goes hand in hand with the documentation chapter which will help you plan for both publication and archiving.
+
+Before you archive or publish, ensure that you have consent to do this if research subjects are involved.  You will also need to have budgeted for any costs or resources involved.
+
+If you need to keep your data private and cannot publish it, this chapter will also guide you through best practice for archiving your data.  Archiving is not simply a data dump.
+
+This chapter will look at what to publish, pathways to publication, places for publication and other steps to help you follow FAIR principles.
 
 ## Choosing what to publish
+
+First and foremost, do you have consent to publish your data?  Does it contain sensitive data?  If you do not have consent, or if there are legal restrictions, or the data is sensitive, do not publish without seeking advice first.
+
+Secondly, is your dataset re-useable?  That is, is it in a state and format to make it functionally useable?  Can the data be read and used?  If it is not in a state where it can be re-used, there is little point in putting in the effort required to publish it.  Published datasets which cannot be used, can also potentially attract negative feedback to your work.
+
 Publishing your data set on its own is not recommended practice. It can easily get lost or become hard to access or impossible to repeat.  To help mitigate against these problems it is a wise idea to publish your dataset as a package that includes:
 1. The dataset(s)
 2. Contextual information about the dataset, often referred to as metadata.  Please see [chapter 3](https://abdnchds.github.io/guidebook/metadata.html) for guidance.
 3. Any accompanying code so that others can easily see what you did to the raw data.
 4. Your lab notebooks.
 
-## Choosing where to publish your data
-There are various things to consider when choosing where to archive and or publish your data:
+## Choosing how to publish your data
+You can choose to publish your data as supplementary material to a journal article or by placing it in a repository.  
+
+There are various things to consider when choosing where to archive and/or publish your data:
 * How easy will it be to publish your accompanying information package along with your dataset?
 * How long do you need to keep your data?  The length of time may be mandated by the funder.
-* Would it be best to store it in a disipline or domain centred archive?
 * Do you need to consider issues related to senstive data or GDPR?
 * What size is your data?
 * Do you have a preservation budget?
 
+### Publishing the data as supplementary data alongside a journal article.
+Currently, publishing your data alongside the journal article, is the most popular pathway.  However, this looks to be chaning as researchers become more informaed about the choices they have, and the advantages and disadvantages of each.
+
+Using a journal for dataset publication ishelpful for others as the data is readily available alongside published findings.  However, as you may already have noted, publishers do not always insist that the published dataset is re-useable, publication via a journal is costly and the journal may claim copyright over the data or keep it behind a subscription wall. This does not comply with FAIR principles
+
+### Choosing a respository.
+There are a range of repositories to choose from, each with their own benefits.  Make sure the repository you choose, meets your requirements, for example, is the long-term preservation of your data guarenteed?
+
+* **Subject-specific data repository** - this means that your data will be stored alongside similar datasets, making searches for useful information potentially more fruitful.  Choose one that is well known and trusted in your community.  Such repositories usually encourage the deposit of high quality data with strong accompanying contextual information to enable re-use.
+* **General data repository**. - Repositories like Zenodo, Figshare or the Harvard Dataverse provide accessible ways of archiving and publishing your data.
+* **Institutional repository** - This provides researchers looking at working for a unviersity a good overview of the work of the university.
+
 A good repository should:
 * Provide a persistent identifier (PID) for your dataset. This helps to make it easily findable by others.
 * Enable you to easily provide adequate contextual information about your dataset to enable it to be re-useable.
-* Takes the information you provide an publishes it in both human readable and machine readable formats, so that the information is both findable and accessible.
+* Takes the information you provide and publishes it in both human readable and machine readable formats, so that the information is both findable and accessible.
 * Encourages re-use of your data though the implementation of Knowledge Organisation Systems, such as recognised standard vocabularies.
 * Provides long term access to your data.  (A repository which has gained the Core Trust Seal guarentees access to the data should the repository go bankrupt.)
 
-Sound like an awful lot to bear in mind?  Re3data have created a tool to help you choose the most appropriate repository for your work. https://www.re3data.org
+A repository might also offer different levels of access permissions:
+* Completely open access
+* Access for registered users only.
+* Restricted access, granted only on request.
+* Availability of temporary embargos, so that the data only becomes open access after a certain period of time.
 
-## But my data needs to remain private...
+Sound like an awful lot to bear in mind?  Re3data have created a tool to help you choose the most appropriate repository for your work. :toolbox: [Re3data](https://www.re3data.org) :toolbox:
+
+
+## But my data needs to remain completely private...
 You can still tell the world about your research and keep your data private.  Using a repository like Dataverse means that you can publish your metadata, that is the contextual information about your dataset, to enable the information about your project to be easily found, and then store the data privately and securely elsewhere.
 
 ## Creating a persistent identifier for your dataset and project
-Ideally you should choose a repository which automatically creates a DOI for you on deposit of your dataset, if the dataset is to be kept privately, your the contextual informtion for your dataset.  The creation of a persistent identifier (PID) for your dataset ensures that others can both cite and access your dataset. This is important as it helps you to show your contribution to research and increases the findability and accessibility of your data.  
+A persistant identifier is a long-lasting reference to a document, file, webpage, person, etc.  A DOI (digital object identifier) is an example of such an identifier, and is used to identfiy aand located digital objects such as research reports, datasets and commercial videos.  
+
+Ideally you should choose a repository which automatically creates a DOI for you on deposit of your dataset, or, if the dataset is to be kept privately, create a DOI simply for the contextual informtion about your dataset.  This ensures that others can both cite and access your dataset. This is important as it helps you to show your contribution to research and increases the findability and accessibility of your data.  
 
 If your chosen repository does not create a DOI or other form of PID for you, you can enter your dataset into the university's repository using Pure. This will create a DOI for you without needing you to deposit your information in the respository.   For help entering information about a dataset into Pure, please contact the Copyright Librarian [Mary Mowat](mary.mowat@abdn.ac.uk).
 
@@ -55,5 +88,5 @@ You are putting all your hard work out into a public space.  Make sure it is pro
 ## Show how you wish your data set to be cited
 To ensure that your work is properly cited, and credit is given where credit is due, please provide an example of how you wish your work to be cited using a standard format such as Harvard.
 
-## Publishing single research objects in project, e.g. datasets, interviews 
-## Access categories
+## Archiving vs. Publishing
+
