@@ -1,18 +1,16 @@
 ---
 title: "Publishing your project/data"
 author: "CDBell"
-date: "11/2020"
+date: "05/2021"
 output: html_document
 ---
 
 # Publishing your project
 The publication of your data is often mandated by funders.  Done well, publication can increase the potential of the dataset you have worked hard to collect. It is also central to the FAIR princples.  This section will look at ways of making an informed decision about where best to publish your data, and how to do this, so that others can access, understand, use and cite it.  
 
-Data publishing and/or archiving is not something you leave until the end of the project.  You need to **plan for archiving and publication right from the start**. This chapter goes hand in hand with the documentation chapter which will help you plan for both publication and archiving.
+Data publishing s not something you leave until the end of the project.  You need to **plan for ublication right from the start**. This chapter goes hand in hand with the chapters on data storage and data documentation.
 
 Before you archive or publish, ensure that you have consent to do this if research subjects are involved.  You will also need to have budgeted for any costs or resources involved.
-
-If you need to keep your data private and cannot publish it, this chapter will also guide you through best practice for archiving your data.  Archiving is not simply a data dump.
 
 This chapter will look at what to publish, pathways to publication, places for publication and other steps to help you follow FAIR principles.
 
@@ -44,7 +42,7 @@ Currently, publishing your data alongside the journal article, is the most popul
 Using a journal for dataset publication ishelpful for others as the data is readily available alongside published findings.  However, as you may already have noted, publishers do not always insist that the published dataset is re-useable, publication via a journal is costly and the journal may claim copyright over the data or keep it behind a subscription wall. This does not comply with FAIR principles
 
 ### Choosing a respository.
-There are a range of repositories to choose from, each with their own benefits.  Make sure the repository you choose, meets your requirements, for example, is the long-term preservation of your data guarenteed?
+There are a range of repositories to choose from, each with their own benefits.  Make sure the repository you choose, meets your requirements, for example, is the long-term preservation of your data guarenteed?  Use of a respository can meet two tasks at the same time - the need to archive your data securely and appropriatey with the option to publish your data.
 
 * **Subject-specific data repository** - this means that your data will be stored alongside similar datasets, making searches for useful information potentially more fruitful.  Choose one that is well known and trusted in your community.  Such repositories usually encourage the deposit of high quality data with strong accompanying contextual information to enable re-use.
 * **General data repository**. - Repositories like Zenodo, Figshare or the Harvard Dataverse provide accessible ways of archiving and publishing your data.
