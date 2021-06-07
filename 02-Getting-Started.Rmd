@@ -27,44 +27,56 @@ There are three main principles for good file names. They should be:
 + If you have numbers, pad with zeros (01,02,...,09,10,11,... instead of 1,2,...,9,10,11,...) to make sure they are ordered correctly.
 
 
-
 ## Project organisation {#folders}
+The folder structure is designed from the ACHDS researcher perspective with Grampian Data Safe Haven (DaSH) elements incorporated as appropriate.  The folder names and overall structure would be the same across ACHDS and DaSH. 
 
-There are many ways to organise your project, but the main recommendation is to keep input data, methods and outputs separate. So the main folder structure should reflect this.
+Further details of the contents of each folder can be found in the table at the bottom of this document. 
 
-**1. Inputs**
+The terms used in this paper are also recorded in the draft [ACHDS / DaSH dictionary](https://365abdn.sharepoint.com/teams/coviData/_layouts/15/Doc.aspx?sourcedoc=%7B7D86F582-2DC2-4829-9D54-36C6F57269CA%7D&file=DaSH%20Dictionary.docx&action=default&mobileredirect=true&CT=1623049838629&OR=ItemsView) which can be found in the Data Lab Shared Drive on Teams and Sharepoint. 
 
-The Inputs folder contains:
+Each new project in DaSH will be accompanied by this document, so that the researcher can clearly see and follow the structure.  It will also be published in the ACHDS Guidebook for researchers and students. DaSH plans to write a process incorporating this document for DaSH staff.   
 
-+ Input data
-+ A metadata file, which is a file that describes the data, for example who created it, when, usage rights, etc. [See chapter on data documentation](#metadata).
-+ A definitions file, which explains what each variable in the dataset is
+### Projects not related to DaSH 
 
-```{block, type="warning"}
-It might not be possible to include your actual input data in your project folder.
-```
+¦--  PrimaryResearchData 
+¦	¦--  Data DocumentationTemplate 
+¦--  Methods 
+¦--  ProcessedData 
+¦	¦--  Data DocumentationTemplate (updated from Primary Research Data template) 
+¦--  PermissionsDocumentation 
+¦--  ProjectRelatedInformation 
+¦--  Outputs 
+¦	¦--  FakeDatasets 
+¦	¦--  Data DocumentationTemplate for processed data or fake dataset if published. 
+¦	¦--  Publications 
 
-This could be because: 
+### DaSH Internal Structure (Modified structure for use within DaSH). 
 
-+ It is too large, and it is stored somewhere else online, so there is no reason to copy it locally. In that case, you need to include a clear explanation of where the data is stored, and what you need to do to access it (for example, you may need to create an account). It would be great to include a small subset of the data, to demonstrate what it looks like, and to allow you to develop and test your analysis code on it without having to access the remote data.
-+ It is private and cannot be publicly shared (you have permissions to access it in a secure environment such as the Grampian Data Safe Haven). In that case, create a dummy dataset that contains the same variables as the real dataset, but fake data. The purpose of this is again to demonstrate what the real data looks like, and allow you to develop and test your analysis code.
+¦--  DaSH_PrimaryResearchData  
+¦	¦--  DaSH_ Release_Folders (Repeatable) 
+¦		¦--  DaSH_SummaryStatistics 
+¦		¦--  DaSH_DataDocumentation 
+¦--  DaSH_Methods 
+¦--  DaSH_ProcessedData 
+¦		¦--  Data Documentation Template for DaSH Processed Data (updated from file provided as part of primary data.) 
+¦--  DaSH_Outputs 
 
-**2. Methods**
+ ###DaSH Related Projects (Full structure for researchers) 
 
-The Methods folder contains:
-
-+ Analysis code, including code to input and test the quality of your input data. See [chapter on data quality](#dataquality).
-+ Documentation of code. It is possible to combine code and documentation in a single document, using tools such as [R Markdown](https://rmarkdown.rstudio.com/){target="_blank"}. See chapter on code documentation.
-+ Code tests, to make sure your code does what you want it to do. See chapter on code testing.
-
-**3. Outputs**
-
-Outputs may be different for each project, depending on the project aims. They could be:
-
-+ A manuscript for publication, including figures, bibliography, etc.
-+ A new dataset, which needs to be accompanied by a metadata file and a definitions file, and short examples of code for accessing and using the new dataset
-+ A new computer model or analysis method, which should include documentation and examples of use
-
-<div class="info">
-You can create your folder structure on your local computer, but you need a good backup system, and you also need to keep your code under version control (which means keeping track of changes you make). So we recommend you create your project as a Github repository. See chapter on version control.  
-</div>
+¦--  DaSH_PrimaryResearchData 
+¦	¦--  DaSH_ Release_Folders (Repeatable) 
+¦		¦--  DaSH_SummaryStatistics 
+¦		¦--  DaSH_DataDocumentation 
+¦--  PrimaryResearchData 
+¦--  DaSH_Methods 
+¦--  Methods 
+¦--  DaSH_ProcessedData 
+¦		¦--  Data Documentation Template (updated from file provided as part of primary data.) 
+¦--  ProcessedData 
+¦--  PermissionsDocumentation 
+¦--  ProjectRelatedInformation 
+¦--  DaSH_Outputs 
+¦--  Outputs 
+¦	¦--  FakeDatasets 
+¦	¦--  Data DocumentationTemplate for processed data or fake dataset if published. 
+¦	¦--  Publications 
