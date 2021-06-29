@@ -14,6 +14,7 @@ Good research practice includes the provision of information about the data you 
 ## What is Metadata?
 
 Metadata is: 
+
 > [...] the information we create, store, and share to describe things, allows us to interact with these things to obtain the knowledge we need." [Riley 2017](https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf)
 
 > One problem is, the term metadata "[...] is used in so many different contexts and applied to so many different things that it sometimes seems to convey very little meaning.
