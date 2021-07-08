@@ -84,7 +84,7 @@ Each new project in DaSH will be accompanied by this document, so that the resea
 ### Folder Contents & Associated Terminology 
 
 |Folder | Contents |
-------------------
+|------------ | -------------|
 |DaSH_SummaryStatistics | Information that can be directly extracted from the dataset. For example, names of variables, range of variables and a note of missing data.  <br/>(Please note that the range is based on information in the dataset itself, so any errors in the dataset could lead to errors in the intended range.) <br/>Formerly known as ‘DaSH_Metadata’. |
 |DaSH_DataDocumentation | Readme File and/or Data Documentation Template for Primary Data.<br/>See: https://github.com/AbdnCHDS/DataDocumentationTemplate  
 |DaSH_Methods | Code and documentation |
