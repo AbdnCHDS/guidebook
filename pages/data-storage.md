@@ -15,7 +15,7 @@ The university provides a range of storage solutions, and information about thes
 
 Note that in this instance 'archiving' does not refer to curation and storage of data, but simply to long term storage.  However, if you store clear [contextual information](data-documentation.md) and/or a completed [Data Documentation Template](https://github.com/AbdnCHDS/DataDocumentationTemplate) together with your data, then you will have done the necessary curatorial work to help your data be findable, understandable and re-useable.
 
-Sometimes the publication process itself provides long term storage solutions.  Please see the [chapter on publication](publishing-your-project.md) for more information.
+Sometimes the publication process itself provides long term storage solutions.  Please see the [chapter on publication](publishing.md) for more information.
 
 ### [Next: Data Documentation](data-documentation.md)
 [Previous: Naming files](filenames.md)
