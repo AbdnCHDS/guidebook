@@ -1,6 +1,6 @@
 # Documentation and Metadata
 
-[![Watch the video](https://img.youtube.com/vi/N2zK3sAtr-4/maxresdefault.jpg)](https://www.youtube.com/watch?v=N2zK3sAtr-4)
+[![Watch the video](https://img.youtube.com/vi/N2zK3sAtr-4/hqdefault.jpg)](https://www.youtube.com/watch?v=N2zK3sAtr-4)
 
 Good research practice includes the provision of information about the data you have collected/generated and the research processes you have undertaken. This information is essential to ensure your research remains repeatable, transparent, discoverable, citable and can be carried further by yourself or others at a later date. It may seem like an onerous task but the steps given below should bring you quickly towards having documentation on your project available in formats which can be read by humans and machines. If you do not have a background in coding or data management do not fear! Help with this task is just an email away: please contact [Bernhard Scheliga](b.scheliga@abdn.ac.uk).
 
