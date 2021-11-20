@@ -4,7 +4,7 @@ The folder structure is designed from the ACHDS researcher perspective with Gram
 Further details of the contents of each folder can be found in the table at the bottom of this document.
 
 ## Projects not related to DaSH
-*  PrimaryResearchData
+* PrimaryResearchData
   * Data Documentation Template
 * Methods
 * ProcessedData
