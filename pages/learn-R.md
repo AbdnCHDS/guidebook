@@ -1,5 +1,18 @@
 # Resources for learning R
-## Books
+
+## General Introductions
+
+
+## Data Manipulation
+
+
+## Plotting
+
+
+## Collaboration
+
+
+
 * Alex Douglas, Deon Roos, Francesca Mancini, Ana Couto & David Lusseau, [An Introduction to R](https://intro2r.com/index.html), Github Bookdown, 2021
 * Ewen Harrison, Riinu Pius, [R for Health Data Science](https://argoshare.is.ed.ac.uk/healthyr_book/), Chapman and Hall/CRC, 2021.
 * Garrett Grolemund and Hadley Wickham, [R for Data Science](https://r4ds.had.co.nz/index.html), O'Reilly, 2017.
