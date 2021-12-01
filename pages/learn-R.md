@@ -15,6 +15,7 @@ Getting to grips with R and RStudio can be a steep learning curve. There is no s
 
 ## Best Practices
 * This guide on [using projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) is really useful
+* [Here](https://malco.io/2018/11/05/why-should-i-use-the-here-package-when-i-m-already-using-projects/) is a great post by Malcolm Barrett about using the {here} package in your projects
 * The [Tidyverse Style Guide](https://style.tidyverse.org/) provides tidyverse-flavoured advice on writing clear code
 * Alongside the style guide there is a package called `{styler}` which you can use to automatically style your code in R
 
