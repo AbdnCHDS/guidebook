@@ -11,7 +11,7 @@ You will also be prompted to think about storage and back-up when you work throu
 
 It is also important to consider how long you need to store your data for and who will be in charge of deleting it after this period has elapsed.
 
-The university provides a range of storage solutions, and information about these can be found on the webpage [Data Storage and Archiving](https://www.abdn.ac.uk/staffnet/working-here/it-services/datastorage.php#panel2066).  
+The university provides a range of storage solutions, and information about these can be found on the webpage [Data Storage and Archiving for Principal Investigators](https://www.abdn.ac.uk/staffnet/working-here/it-services/datastorage.php#panel2066), [Data Storage of Staff and PGR](https://www.abdn.ac.uk/it/service-portfolio/sc-pc-filestore.php). The data storage for your research project on the UoA shared drive can be requested [here](https://uoa.freshservice.com/support/catalog/items/157).
 
 Note that in this instance 'archiving' does not refer to curation and storage of data, but simply to long term storage.  However, if you store clear [contextual information](data-documentation.md) and/or a completed [Data Documentation Template](https://github.com/AbdnCHDS/DataDocumentationTemplate) together with your data, then you will have done the necessary curatorial work to help your data be findable, understandable and re-useable.
 
