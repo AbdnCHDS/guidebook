@@ -1,6 +1,6 @@
 # Resources for learning R
 
-Getting to grips with R and RStudio can be a steep learning curve. There is no substitute for diving in a completing a small project but there are lots of amazing (and often free!) resources out there to help you. The following lists should give you a range of options to look at. 
+Getting to grips with R and RStudio can be a steep learning curve. There is no substitute for diving in and completing a small project but there are lots of amazing (and often free!) resources out there to help you. The following lists should give you a range of options to look at. 
 
 ## Getting Started with R
 * Rstudio have a [nice introductory course](https://education.rstudio.com/learn/) for beginners. They also have learning tracks for intermediate R users and experts too
