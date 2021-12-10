@@ -44,6 +44,9 @@ If problems pop up during your coding, probably the best thing to do is simply g
 * [stackoverflow](https://stackoverflow.com/questions/tagged/r) is another common source of help
 #### Remember - If you are asking for help it is good practice to provide additional information about your R/RStudio version and other information about your environment. It's also a good idea to make and provide a Minimal Reproducible Example or [Reprex](https://www.tidyverse.org/help/). Sometimes making these can allow you to think about what might be going wrong and solve the problem yourself.
 
+## Further Information
+* [The Big Book of R](https://www.bigbookofr.com/) isn't actually a resource itself but instead is a sort of catalogue of other books related to almost any R topic you could be interested in.
+
 
 ### [Next: Collaboration with GitHub](collaboration.md)
 [Previous: Good code reviewing practices](code-review.md)
