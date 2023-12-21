@@ -28,3 +28,8 @@ ReadmeFile | |
 Research data | | Can include a range of material including interview scripts, images, datasets etc. NB.  ‘Research Data’ is often used as a synonym for the much narrower term ‘dataset’.  Please avoid this as it can lead to confusion.
 Researcher | |
 Table | |
+
+
+[Previous: Publishing your project](publishing.md)
+
+[Index](index.md)
