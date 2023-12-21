@@ -80,6 +80,6 @@ You are putting all your hard work out into a public space.  Make sure it is pro
 To ensure that your work is properly cited, and credit is given where credit is due, please provide an example of how you wish your work to be cited using a standard format such as Harvard.
 
 ### [Next: ACHDS shared terminology](terminology.md)
-[Previous: Collaboration with GitHub](collaboration.md)
+[Previous: Resources for learning R](learn-R.md)
 
 [Index](index.md)
