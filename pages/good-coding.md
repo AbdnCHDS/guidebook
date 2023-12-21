@@ -2,6 +2,10 @@
 
 We have put together a separate step-by-step guide that shows how to use git for version control, GitHub for collaboration, and how to write good code in R, including documentation. It is here: [Open Research How To](https://github.com/AbdnCHDS/open-research-how-to/tree/main)
 
+## R notebook template
+
+We have created an [R notebook template](https://github.com/AbdnCHDS/guidebook/blob/master/R/Template_R_Notebook.Rmd), to promote more standardised reporting and analysis/code documentation within the centre. 
+
 ## How to ask for help
 
 We all need help at some point, and the easiest way for others to be able to help, is to provide them with a Minimal Reproducible Example. 
