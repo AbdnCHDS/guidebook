@@ -26,11 +26,8 @@ Our guidebook is work in progress, and everyone is invited to contribute. The se
 * [Data Storage and Backup](data-storage.md)
 * [How to document your data (what information to include about the dataset creators, description, license, variables, etc.)](data-documentation.md)
 * [Basic data quality control (what to use for missing values in datasets, standard checks on range of values, value types, number of expected observations, etc.)](data-quality.md)
-* [Good coding practices (documentation, testing, version control)](good-coding.md)
-* [Troubleshooting code and asking for help (i.e. how to create minimal working examples)](troubleshooting.md)
-* [Good code reviewing practices](code-review.md)
+* [Good practice for coding and collaboration](good-coding.md)
 * [Resources for learning R](learn-R.md)
-* [Collaboration (using Github for hosting projects, and enabling peer review and tracking team contributions)](collaboration.md)
 * [Publishing your project](publishing.md)
 
 We are focusing on R, as it is a very commonly used programming language in data science. If you use a different language such as Python, it would be great to add some non-R resources!
