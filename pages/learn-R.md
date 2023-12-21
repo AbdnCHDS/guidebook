@@ -48,7 +48,7 @@ If problems pop up during your coding, probably the best thing to do is simply g
 * [The Big Book of R](https://www.bigbookofr.com/) isn't actually a resource itself but instead is a sort of catalogue of other books related to almost any R topic you could be interested in.
 
 
-### [Next: Collaboration with GitHub](collaboration.md)
+### [Next: Publishing your project](publishing.md)
 [Previous: Good code reviewing practices](code-review.md)
 
 [Index](index.md)
